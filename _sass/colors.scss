@@ -1,0 +1,40 @@
+//=================================================
+
+// Main Colors
+$color-bg: #1D1F21;
+$color-bg-dark: mix($color-bg, #000000, 75%);
+$color-text: #CCCCCC;
+$color-text-dim: #888888;
+$color-border: mix($color-bg, #ffffff, 96%);
+$color-border-light: mix($color-bg, #ffffff, 86%);
+$color-menu: #6EBCCC;   // Blue
+$color-link: #CCA56E;   // Yellow
+
+//=================================================
+
+// code block colors
+$hl-comment: #4F5459;
+$hl-pink: #C78B97;
+$hl-red: #C66363;
+$hl-lightgrey: #C2C5C3;
+$hl-orange: #D48044;
+$hl-yellow: #D1B06F;
+$hl-purple: #916AA1; // built-in constant, user-defined constant
+$hl-green: #9CB550; // constant, function, class/type, inserted
+$hl-blue: #80A2BE; // class
+
+//=================================================
+
+// Post Contents
+:root {
+  --post-red: #CC6E7F;    // emphasize
+  --post-purple: #9A6ECC;    // heading
+  --post-green: #93CD6E;    // example
+  --post-yellow: #CCA56E;    // etc
+  --post-blue: #6EBCCC;    // menu
+  --post-white: #CCCCCC;    // contents
+  --post-grey:#888888;
+}
+
+//=================================================
+

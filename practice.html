@@ -1,0 +1,49 @@
+---
+layout: default
+permalink: /practice/
+<!-- pagination: 
+  enabled: true
+  category: practice
+  permalink: /:num/ -->
+---
+
+<div class="post-list-intro">
+
+  <h1 class="post-list-category" >practice</h1>
+  <div class="post-list-categoryinfo">
+    practicing algorithms and programming
+  </div>
+
+</div>
+
+
+<ul class="post-list-contents" id="post-lists">
+  {% for post in site.categories.practice %}
+    <li class="post-list-content"><a href="{{ post.url }}">
+      <h2 class="post-list-title">{{ post.title }}</h2>
+      <div class="post-list-excerpt">{% include excerpt_list.html %}</div>
+      <div class="post-list-category-name">{{ post.list }} &ensp;|</div>
+      <div class="post-list-date">{{ post.date | date_to_string | date: "%b %d, %Y" }}</div>
+    </a></li>
+  {% endfor %}
+</ul>
+
+
+<!-- <div class="post-view-more-container">
+  <div class="post-view-more-btn" id="post-view-more-btn">
+      <h3>View More</h3>
+  </div>
+  <div class="post-no-more-list" id="post-no-more-list">
+    <h3>⏤ No More Posts for practice Category ⏤</h3>
+  </div>
+</div>
+
+
+<script>
+    var postWrapperId = 'post-lists';
+    var paginatePath = '/practice/';
+    var viewMoreBtnId = 'post-view-more-btn';
+    var noMoreListId = 'post-no-more-list';
+    new InfiniteScroll(paginatePath, postWrapperId, viewMoreBtnId, noMoreListId);
+</script> -->
+

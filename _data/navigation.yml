@@ -1,0 +1,28 @@
+# sidebar Menu List
+menu:
+  - title: About
+    submenu:
+      - subtitle: Me
+        url: /me/
+        category: null
+  - title: Notes
+    submenu:
+      - subtitle: Practice
+        url: /practice/
+        category: practice
+      - subtitle: Study
+        url: /study/
+        category: study
+      - subtitle: Class
+        url: /class/
+        category: class
+      - subtitle: Project
+        url: /project/
+        category: project
+      - subtitle: ESL
+        url: /esl/
+        category: esl
+  - title: Links
+    submenu:
+      - subtitle: Research
+        url: 
