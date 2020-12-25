@@ -4,21 +4,20 @@ menu:
     submenu:
       - subtitle: Me
         url: /me/
-        category: null
   - title: Notes
     submenu:
-      - subtitle: Practice
-        url: /practice/
-        category: practice
-      - subtitle: Study
-        url: /study/
-        category: study
       - subtitle: Class
         url: /class/
         category: class
+      - subtitle: Practice
+        url: /practice/
+        category: practice
       - subtitle: Project
         url: /project/
         category: project
+      - subtitle: Study
+        url: /study/
+        category: study
       - subtitle: ESL
         url: /esl/
         category: esl

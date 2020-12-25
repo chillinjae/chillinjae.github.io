@@ -1,0 +1,135 @@
+//=================================================
+
+.post-rainbow {
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: gradient(linear, left top, right top, color-stop(0, #FF1D5B), color-stop(.2, #FFA322), color-stop(.4, #F4F53F), color-stop(6, #13FF48), color-stop(.8, #11FCEB), color-stop(1, #934BFF));
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FF1D5B), color-stop(.2, #FFA322), color-stop(.4, #F4F53F), color-stop(6, #13FF48), color-stop(.8, #11FCEB), color-stop(1, #934BFF));
+  color: transparent;
+}
+
+//=================================================
+
+.post-figure {
+    background-color: $color-border;
+    border: .0625rem solid $color-border-light;
+    border-radius: .4375rem;
+    display: block;
+    font-family: Menlo;
+    font-size: .86328rem;
+    line-height: 1.4;
+    margin: .4125rem .125rem;
+    padding: .625rem .9375rem;
+    white-space: nowrap;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+}
+
+.post-figure::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
+}
+
+//=================================================
+// Post Colors
+
+.post-heading {
+  color: var(--post-purple);
+}
+
+.post-example {
+  color: var(--post-green);
+}
+
+.post-emphasize {
+  color: var(--post-red);
+}
+
+.post-etc {
+  color: var(--post-yellow);
+}
+
+//=================================================
+// Post Content Forms
+.post-sources {
+  word-break: break-all;
+}
+
+.half-line {
+  height: 0.5rem;
+}
+
+.post-indent-half {
+  padding-left: 20px;
+  display: block;
+}
+
+.post-indent1 {
+  padding-left: 40px;
+  display: block;
+}
+
+.post-indent2 {
+  padding-left: 80px;
+  display: block;
+}
+
+//=================================================
+
+.post-link {
+  color: $color-link;
+  text-decoration: underline;
+  font-weight: bold;
+
+  &:hover {
+    color: $color-menu;
+  }
+}
+
+//=================================================
+
+.post-view-more-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem 0 0;
+}
+
+.post-view-more-btn {
+  display: inline-block;
+  border: 1px solid $color-border-light;
+  border-radius: 9px;
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+    color: $color-text-dim;
+  }
+
+  a:hover {
+    color: $color-text;
+  }
+
+  h3 {
+    margin: 0;
+    padding: .5rem 3rem;
+  }
+
+  &:hover {
+    border-color: $color-bg-dark;
+    background-color: $color-bg-dark;
+  }
+}
+
+.post-no-more-list {
+  display: none;
+
+  h3 {
+    margin: 0;
+    padding: .5rem 1.2rem;
+    color: $color-text-dim;
+  }
+}
+
+
+//=================================================

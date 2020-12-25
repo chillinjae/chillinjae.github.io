@@ -1,0 +1,102 @@
+//=================================================
+// Top Menu Tablet
+
+.topmenu-tablet {
+  display: none;
+
+  @media (max-width: $tablet-max) and (min-width: $tablet-min) {
+    display: block;
+    position: absolute;
+  }
+}
+
+.topmenu-tablet-list {
+  background-color: mix($color-bg, #000000, 75%);
+  color: $color-text;
+  float: left;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: width .5s;
+  width: 0;
+}
+
+.tablet-close-btn {
+  color: $color-text;
+  cursor: pointer;
+  display: none;
+  float: left;
+  font-size: 2.5rem;
+  font-style: normal;
+  padding: 0 1.4375rem 0.625rem;
+  position: absolute;
+  text-decoration: none;
+  z-index: 1;
+}
+
+
+.tablet-open-btn {
+  color: $color-text;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  font-size: 1.875rem;
+  font-style: normal;
+  padding: .625rem 1.375rem;
+  text-decoration: none;
+}
+
+
+
+//=================================================
+// Top Menu Mobile
+
+.topmenu-mobile {
+  display: none;
+
+  @media (max-width: $mobile-max) {
+    display: block;
+    position: absolute;
+  }
+}
+
+.topmenu-mobile-list {
+  // -webkit-transition: height .5s;
+  background-color: mix($color-bg, #000000, 75%);
+  color: $color-text;
+  height: 0;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: height .5s;
+  width: 100%;
+  z-index: 1;
+}
+
+.mobile-close-btn {
+  color: $color-text;
+  cursor: pointer;
+  display: none;
+  float: left;
+  font-size: 2.5rem;
+  font-style: normal;
+  padding: 0 1.4375rem .625rem;
+  position: absolute;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.mobile-open-btn {
+  color: $color-text;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  font-size: 1.875rem;
+  font-style: normal;
+  padding: .625rem 1.375rem;
+  text-decoration: none;
+}
+
+
+//=================================================

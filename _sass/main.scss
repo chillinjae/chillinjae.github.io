@@ -1,0 +1,41 @@
+//=================================================
+
+// sidebar size set
+$sidebar-width: 25%;
+
+// inside-sidebar size set
+$blogger-info-height: 15.625rem;
+$image-size: 60%;
+$image-size-tablet: 10.625rem;
+$image-size-mobile: 9.5rem;
+
+// Media Query size set
+$desktop-min: 1201px;
+$tablet-max: 1200px;
+$tablet-min: 701px;
+$mobile-max: 700px;
+
+
+//=================================================
+
+html {
+  background-color: $color-bg;
+  color: $color-text;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 100%;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+  -webkit-appearance: none;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+//=================================================
+

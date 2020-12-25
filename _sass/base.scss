@@ -1,0 +1,202 @@
+//=================================================
+
+blockquote {
+  border-left: .25rem solid $color-border-light;
+  margin: 0 0 0 1.25rem;
+  padding-left: 1.25rem;
+}
+
+ul {
+  line-height: 1.6;
+  margin: 0;
+}
+
+li {
+  padding: 0.1875rem 0;
+
+  a {
+    color: $color-text;
+
+    &:hover {
+      color: $color-menu;
+    }
+  }
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2 {
+  margin: 1.875rem 0 0.75rem;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.625rem 0 0.2rem;
+}
+
+hr {
+  border-color: $color-border;
+  border-style: solid;
+  margin: 2.5rem 0;
+}
+
+ul ul ul ul {
+    list-style-type: circle;
+}
+
+
+//=================================================
+
+pre code {
+  font-family: Menlo;
+  font-size: 0.8125em;
+  line-height: 1.4;
+
+  @media (max-width: $mobile-max) {
+    font-size: 0.65rem;
+    line-height: 1.5;
+  }
+}
+
+code {
+  font-family: Menlo;
+  font-size: 0.9em;
+  line-height: 1.4;
+
+  @media (max-width: $mobile-max) {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+}
+
+.highlight {
+  margin: 0;
+  overflow-x: scroll; // overflow in code block, in case code is too long.
+  -ms-overflow-style: none;
+
+  code {
+    // white-space: pre-wrap; // for the case that doesn't use overflow.
+    // word-wrap: break-word; // for the case that doesn't use overflow.
+  }
+
+  pre {
+    padding: .4rem .36rem;
+  }
+}
+
+.highlight::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
+}
+
+
+.highlighter-rouge {
+  border: .0625rem solid $color-border-light;
+  border-radius: .4375rem;
+  // box-sizing: border-box;
+  margin: .4375rem .125rem .9rem;
+  padding: .125rem .3125rem;
+}
+
+
+//=================================================
+// background
+.highlight pre { background-color: $color-border; }
+.highlighter-rouge { background-color: $color-border; }
+.highlight .hll { background-color: $color-border; }
+
+//=================================================
+// others
+.highlight .err { color: $hl-red; } // error
+.highlight .o { color: $hl-lightgrey; } // operator
+.highlight .ow { color: $hl-pink; } // operator.word
+.highlight .x { color: $hl-lightgrey; } // other
+.highlight .p { color: $hl-lightgrey; } // punctuation
+.highlight .w { color: $hl-lightgrey; } // text.whitespace
+
+//=================================================
+// comment
+.highlight .c {color: $hl-comment; } // comment
+.highlight .cm { color: $hl-comment; } // comment.multiline
+.highlight .cp { color: $hl-pink; } // comment.preproc //e.g. #include
+.highlight .c1 { color: $hl-comment; } // comment.single
+.highlight .cs { color: $hl-comment; } // comment.special
+
+
+//=================================================
+// generic
+.highlight .g { color: $hl-lightgrey; } // generic
+.highlight .gd { color: $hl-red; } // generic.deleted
+.highlight .ge { color: $hl-lightgrey; } // generic.emphasize
+.highlight .gr { color: $hl-red; } // generic.error
+.highlight .gh { color: $hl-lightgrey; font-weight: bold; } // generic.heading
+.highlight .gi { color: $hl-green; } // generic.insert
+.highlight .go { color: $hl-lightgrey; } // generic.output
+.highlight .gp { color: $hl-lightgrey; } // generic.prompt
+.highlight .gs { color: $hl-lightgrey; font-weight: bold; } // generic.strong
+.highlight .gu { color: $hl-lightgrey; } // generic.subheading
+.highlight .gt { color: $hl-red; } // generic.traceback
+
+
+//=================================================
+// keyword
+.highlight .k { color: $hl-pink; } // keyword
+.highlight .kc { color: $hl-purple; } // keyword.constant
+.highlight .kd { color: $hl-pink; } // keyword.declaration
+.highlight .kn { color: $hl-pink; } // keyword.namespace
+.highlight .kp { color: $hl-pink; } // keyword.pseudo
+.highlight .kr { color: $hl-pink; } // keyword.reserved
+.highlight .kt { color: $hl-blue; } // keyword.type
+
+//=================================================
+// name
+.highlight .n { color: $hl-lightgrey; } // name
+.highlight .na { color: $hl-lightgrey; } // name.attribute
+.highlight .nb { color: $hl-purple; } // name.builtin
+.highlight .nc { color: $hl-blue; } // name.class
+.highlight .no { color: $hl-green; } // name.constant
+.highlight .nd { color: $hl-orange; } // name.decorator
+.highlight .ni { color: $hl-lightgrey; } // name.entity
+.highlight .ne { color: $hl-orange; } // name.exception
+.highlight .nf { color: $hl-green; } // name.function
+.highlight .nl { color: $hl-blue; } // name.label
+.highlight .nn { color: $hl-green; } // name.namespace
+.highlight .nx { color: $hl-lightgrey; } // name.other
+.highlight .py { color: $hl-lightgrey; } // name.property
+.highlight .nt { color: $hl-pink; } // name.tag
+.highlight .nv { color: $hl-green; } // name.variable
+.highlight .bp { color: $hl-purple; } // name.builtin.pseudo
+.highlight .vc { color: $hl-green; } // name.variable.class
+.highlight .vg { color: $hl-green; } // name.variable.global
+.highlight .vi { color: $hl-green; } // name.variable.instance
+
+//=================================================
+// literal
+.highlight .l { color: $hl-lightgrey; } // literal
+.highlight .ld { color: $hl-lightgrey; } // literal.date
+.highlight .m { color: $hl-purple; } // literal.number
+.highlight .s { color: $hl-yellow; } // literal.string
+.highlight .mf { color: $hl-purple; } // literal.number.float
+.highlight .mh { color: $hl-purple; } // literal.number.hex
+.highlight .mi { color: $hl-purple; } // literal.number.integer
+.highlight .il { color: $hl-purple; } // literal.number.integer.long
+.highlight .mo { color: $hl-purple; } // literal.number.oct
+.highlight .sb { color: $hl-yellow; } // literal.string.backtick
+.highlight .sc { color: $hl-yellow; } // literal.string.char
+.highlight .sd { color: $hl-yellow; } // literal.string.doc
+.highlight .s2 { color: $hl-yellow; } // literal.string.double
+.highlight .se { color: $hl-yellow; } // literal.string.escape
+.highlight .sh { color: $hl-yellow; } // literal.string.heredoc
+.highlight .si { color: $hl-yellow; } // literal.string.interpol
+.highlight .sx { color: $hl-orange; } // literal.string.other
+.highlight .sr { color: $hl-yellow; } // literal.string.regex
+.highlight .s1 { color: $hl-yellow; } // literal.string.single
+.highlight .ss { color: $hl-yellow; } // literal.string.symbol
+
+//=================================================
+

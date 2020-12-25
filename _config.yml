@@ -1,64 +1,53 @@
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# collections:
+#   authors:
+#     output: #true
 
-title: Bay Jekyll Theme
-description: >- # this means to ignore newlines until "baseurl:"
-  Bay is a minimal Jekyll Theme.
-baseurl: "" # the subpath of the site
-url: "https://bay.github.io/" # the base hostname & protocol for the site
-og_image: /img/profile-pic.jpg
-google_analytics: ""
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
-header:
-  pages:
-    - name: Home
-      slug: /
-    - name: Work
-    - name: Blog
+# Information of blogger
+blogger:
+  name: "Jae Choi" # for profile
+  penname: "Jae Choi" # for each post
+  comment: # "Hello" # for profile
 
-footer:
-  show_powered_by: true
-  contact:
-    - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
-    - name: WeChat
-      value: YourWeChatUsername
-      link: "#"
-  follow:
-    - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
-    - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
-    - name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - name: Weibo
-      link: http://weibo.com/u/YourWeiboUsername
-    - name: RSS
-      link: /feed.xml
+  profile: false
 
-# Build settings
+  github: https://github.com/chillinjae/ # github url
+  site: https://chillin.dev # personal site url
+  email: mailto:jae_blog@chillin.dev # email address
+
+
+
+# permalink
+permalink: /:categories/:year:month:day/:title/
+
+# time zone
+timezone: Canada/Pacific
+
+# Markdown
 markdown: kramdown
-sass:
-    style: :compressed
-plugins:
-  - jekyll-feed
+kramdown:
+  imput: GFM
+  syntax_highlighter: rouge
+  math_engine: katex
+  math_engine_opts: {}
 
-# Excluded items
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - feed.xml
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
 
-# Used for defeating caching
-version: 1
+# Plug-ins
+# plugins: 
+#   - jekyll-latex
+
+# Pagination
+# plugins:
+#   - jekyll-paginate-v2
+# pagination:
+#   enabled: true
+#   per_page: 6
+#   sort_reverse: true
+
+
