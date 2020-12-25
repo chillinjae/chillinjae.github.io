@@ -37,6 +37,8 @@ kramdown:
   math_engine: katex
   math_engine_opts: {}
 
+# Disqus
+discus-identifier: chillinjae
 
 # Plug-ins
 # plugins: 

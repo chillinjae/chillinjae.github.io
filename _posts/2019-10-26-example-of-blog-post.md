@@ -2,6 +2,7 @@
 layout: post
 title:  "Post example"
 category: 
+comments : true
 ---
 
 # Heading 1
