@@ -22,15 +22,6 @@ menu:
       - subtitle: Study
         url: /study/
         category: study
-      - subtitle: Studymaterials
-        url: /StudyMaterials/
-        category: StudyMaterials
-      - subtitle: Animation
-        url: /Animation/
-        category: Animation
-      - subtitle: Health
-        url: /Health/
-        category: Health
   - title: Links
     submenu:
       - subtitle: Research
