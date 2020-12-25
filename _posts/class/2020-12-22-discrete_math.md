@@ -2,6 +2,7 @@
 layout: post
 title: "[Class] TRU Math 1701"
 category: class
+list: Class
 ---
 
 ## Math for Computer Science

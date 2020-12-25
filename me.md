@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /me/
+title: about me
 ---
 <br>
 ## Hi there 👋 I'm Jae
