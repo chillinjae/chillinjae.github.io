@@ -6,22 +6,32 @@ menu:
         url: /me/
   - title: Notes
     submenu:
+      #add here
       - subtitle: Class
         url: /class/
         category: class
-      - subtitle: Practice
-        url: /practice/
-        category: practice
       - subtitle: Project
         url: /project/
         category: project
+      - subtitle: Practice
+        url: /practice/
+        category: practice
+      - subtitle: Esl
+        url: /esl/
+        category: esl
       - subtitle: Study
         url: /study/
         category: study
-      - subtitle: ESL
-        url: /esl/
-        category: esl
+      - subtitle: Studymaterials
+        url: /StudyMaterials/
+        category: StudyMaterials
+      - subtitle: Animation
+        url: /Animation/
+        category: Animation
+      - subtitle: Health
+        url: /Health/
+        category: Health
   - title: Links
     submenu:
       - subtitle: Research
-        url: 
+        url:
