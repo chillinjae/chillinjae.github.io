@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "[discrete math]"
+title: "[Math] Discrete Math"
 category: class
-list: class
+list: Class
+published: true
 comments: true
 ---
 

@@ -7,6 +7,9 @@ menu:
   - title: Notes
     submenu:
       #add here
+      - subtitle: TIL
+        url: /til/
+        category: til
       - subtitle: Class
         url: /class/
         category: class

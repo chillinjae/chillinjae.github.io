@@ -2,46 +2,12 @@
 layout: default
 permalink: /eng/
 list: English
+category: eng
+description: materials for english learner
 <!-- pagination:
   enabled: true
   category: english
   permalink: /:num/ -->
 ---
 
-<div class="post-list-intro">
-  <h1 class="post-list-category">English</h1>
-  <div class="post-list-categoryinfo">materials for english learner</div>
-</div>
-
-<ul class="post-list-contents" id="post-lists">
-  {% for post in site.categories.english %}
-  <li class="post-list-content">
-    <a href="{{ post.url }}">
-      <h2 class="post-list-title">{{ post.title }}</h2>
-      <div class="post-list-excerpt">{% include excerpt_list.html %}</div>
-      <div class="post-list-category-name">{{ post.list }} &ensp;|</div>
-      <div class="post-list-date">
-        {{ post.date | date_to_string | date: "%b %d, %Y" }}
-      </div>
-    </a>
-  </li>
-  {% endfor %}
-</ul>
-
-<!-- <div class="post-view-more-container">
-  <div class="post-view-more-btn" id="post-view-more-btn">
-      <h3>View More</h3>
-  </div>
-  <div class="post-no-more-list" id="post-no-more-list">
-    <h3>⏤ No More Posts for english Category ⏤</h3>
-  </div>
-</div>
-
-
-<script>
-    var postWrapperId = 'post-lists';
-    var paginatePath = '/eng/';
-    var viewMoreBtnId = 'post-view-more-btn';
-    var noMoreListId = 'post-no-more-list';
-    new InfiniteScroll(paginatePath, postWrapperId, viewMoreBtnId, noMoreListId);
-</script> -->
+{% include page.html %}
