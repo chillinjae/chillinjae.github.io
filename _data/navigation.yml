@@ -16,9 +16,9 @@ menu:
       - subtitle: Practice
         url: /practice/
         category: practice
-      - subtitle: Esl
-        url: /esl/
-        category: esl
+      - subtitle: English
+        url: /eng/
+        category: english
       - subtitle: Study
         url: /study/
         category: study

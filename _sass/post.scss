@@ -6,7 +6,7 @@
 
   @media (max-width: $tablet-max) {
     padding-left: 0;
-    transition: margin-left .5s;
+    transition: margin-left 0.5s;
   }
 }
 
@@ -29,12 +29,12 @@
 .post-list-intro {
   // background-color: #074080; //for test
   height: auto;
-  padding: .625rem 0 .9375rem;
+  padding: 0.625rem 0 0.9375rem;
 }
 
 .post-list-category {
   margin: 0;
-  padding: 0 .625rem;
+  padding: 0 0.625rem;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -42,13 +42,12 @@
 .post-list-categoryinfo {
   color: $color-text-dim;
   margin: 0;
-  padding: .1875rem .625rem 0;
+  padding: 0.1875rem 0.625rem 0;
 }
-
 
 // Categories Post List "Intro" Styles
 .post-list-contents {
-  border-top: .0625rem solid;
+  border-top: 0.0625rem solid;
   border-top-color: $color-border;
   height: auto;
   padding-inline-start: 0;
@@ -64,7 +63,7 @@
 }
 
 .post-list-content {
-  border-bottom: .0625rem solid;
+  border-bottom: 0.0625rem solid;
   border-bottom-color: $color-border;
   display: block;
   list-style-type: none;
@@ -77,14 +76,14 @@
   font-weight: 400;
   font-size: 1.3125rem;
   margin: 0;
-  padding: .9375rem .625rem .75rem;
+  padding: 0.9375rem 0.625rem 0.75rem;
 }
 
 .post-list-excerpt {
   color: $color-text;
-  font-size: .9375rem;
+  font-size: 0.9375rem;
   margin: 0;
-  padding: 0 .625rem;
+  padding: 0 0.625rem;
 
   p {
     margin: 0;
@@ -94,31 +93,30 @@
 .post-list-category-name {
   color: $color-text-dim;
   display: inline-block;
-  font-size: .875rem;
+  font-size: 0.875rem;
   margin: 0;
-  padding: 0 0 1.4375rem .625rem;
+  padding: 0 0 1.4375rem 0.625rem;
 }
 
 .post-list-date {
   color: $color-text-dim;
   display: inline-block;
-  font-size: .75rem;
+  font-size: 0.75rem;
   margin: 0;
-  padding: .5rem .3125rem .9375rem;
+  padding: 0.5rem 0.3125rem 0.9375rem;
   text-transform: uppercase;
 }
-
 
 //=================================================
 // Post Contents (blog contents) Styles
 .post-intro {
-  border-bottom: .0625rem solid;
+  border-bottom: 0.0625rem solid;
   border-bottom-color: $color-border-light;
-  padding: 0 0 .9375rem;
+  padding: 0 0 0.9375rem;
 }
 
 .post-intro-contents {
-  padding: 0 .625rem;
+  padding: 0 0.625rem;
 }
 
 .post-category {
@@ -135,7 +133,7 @@
   font-size: 2rem;
   margin: 0;
   line-height: 1.2;
-  padding: .625rem 0;
+  padding: 0.625rem 0;
 
   @media (max-width: $mobile-max) {
     font-size: 1.75rem;
@@ -148,33 +146,33 @@
   font-size: 1rem;
 
   @media (max-width: $mobile-max) {
-    font-size: .875rem;
+    font-size: 0.875rem;
   }
 }
 
 .post-date {
   color: $color-text-dim;
   display: inline-block;
-  font-size: .875rem;
-  padding-left: .3125rem;
+  font-size: 0.875rem;
+  padding-left: 0.3125rem;
   text-transform: uppercase;
 
   @media (max-width: $mobile-max) {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 }
 
 .post-contents {
   font-size: 1.0625rem;
   font-weight: 200;
-  padding: 2.3rem .625rem 0;
+  padding: 2.3rem 0.625rem 0;
 
   p {
     line-height: 1.4;
   }
 
   @media (max-width: $mobile-max) {
-    font-size: .9375rem;
+    font-size: 0.9375rem;
   }
 
   dl {
@@ -189,12 +187,11 @@
   }
 }
 
-
 //=================================================
 // Post Styles for multiple posts on one page (e.g. log.html)
 
 .post-multiple {
-  border-top: .0625rem solid;
+  border-top: 0.0625rem solid;
   border-top-color: $color-border-light;
   padding: 0;
 }
@@ -203,14 +200,14 @@
   border: 0.1rem solid;
   border-color: $color-border-light;
   border-radius: 1.5rem;
-  margin: 2.5rem .1rem 3rem;
-  padding: .8rem;
+  margin: 2.5rem 0.1rem 3rem;
+  padding: 0.8rem;
 }
 
 .post-multiple-intro-contents {
-  border-bottom: .0625rem solid;
+  border-bottom: 0.0625rem solid;
   border-bottom-color: $color-border-light;
-  padding: .9375rem .625rem;
+  padding: 0.9375rem 0.625rem;
 }
 
 .post-multiple-title {
@@ -218,7 +215,7 @@
   font-size: 1.8rem;
   line-height: 1.2;
   margin: 0;
-  padding: .3rem 0;
+  padding: 0.3rem 0;
 
   @media (max-width: $mobile-max) {
     font-size: 1.75rem;
@@ -231,33 +228,47 @@
   font-size: 0.875rem;
 
   @media (max-width: $mobile-max) {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 }
 
 .post-multiple-date {
   color: $color-text-dim;
   display: inline-block;
-  font-size: .875rem;
-  padding-left: .3125rem;
+  font-size: 0.875rem;
+  padding-left: 0.3125rem;
   text-transform: uppercase;
 
   @media (max-width: $mobile-max) {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 }
 
 .post-multiple-contents {
   font-size: 1rem;
   font-weight: 200;
-  padding: .9375rem .625rem;
+  padding: 0.9375rem 0.625rem;
 
   p {
     line-height: 1.6;
   }
 
   @media (max-width: $mobile-max) {
-    font-size: .9rem;
+    font-size: 0.9rem;
+  }
+}
+
+.fetchDocsHere {
+  h1,
+  h2 {
+    margin: 1.875rem 0 0.75rem;
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0.625rem 0 0.2rem;
   }
 }
 
@@ -275,13 +286,13 @@
 
 .fetchDocsHere li {
   color: $color-text;
-  padding: .5rem 0;
+  // padding: 0.5rem 0;
   display: flex;
   align-items: baseline;
 }
 
 .fetchDocsHere li div {
-  padding-left: .3rem;
+  padding-left: 0.3rem;
 }
 
 .fetchDocsCodeTable {
@@ -297,25 +308,21 @@
 
   p {
     white-space: nowrap;
-    overflow-x: scroll;  // overflow in code table, in case code is too long.
-    -ms-overflow-style: none;    
+    overflow-x: scroll; // overflow in code table, in case code is too long.
+    -ms-overflow-style: none;
   }
 }
 
 .fetchDocsHere tr td p {
-  margin: .2rem;
-  padding: .2rem;
+  margin: 0.2rem;
+  padding: 0.2rem;
   width: auto;
   word-break: break-all;
 }
 
 .fetchDocsHere tr td div p::-webkit-scrollbar {
-    display: none;
-    -webkit-appearance: none;
+  display: none;
+  -webkit-appearance: none;
 }
 
 //=================================================
-
-
-
-
