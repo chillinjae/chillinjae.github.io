@@ -4,6 +4,7 @@ title: "[Leetcode] Jan 01 2020"
 category: practice
 list: Practice
 comments: true
+published: true
 ---
 
 <div class='fetchDocsHere'></div>

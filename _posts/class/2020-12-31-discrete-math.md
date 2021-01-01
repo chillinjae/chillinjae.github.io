@@ -3,8 +3,8 @@ layout: post
 title: "[Math] Discrete Math"
 category: class
 list: Class
-published: true
 comments: true
+published: true
 ---
 
 <div class='fetchDocsHere'></div>

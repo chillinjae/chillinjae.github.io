@@ -3,8 +3,8 @@ layout: post
 title: "use google docs as jekyll post editor"
 category: project
 list: Project
-published: true
 comments: true
+published: true
 ---
 
 <div class='fetchDocsHere'></div>
