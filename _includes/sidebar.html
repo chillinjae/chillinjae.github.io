@@ -7,6 +7,7 @@
         <a href="/"><img src="{{ blogger-photo }}"></a>
     </div>
 
+<!--     
     {% if site.blogger.profile == true %}
       <div class="blogger-name">
         <h2>{{ site.blogger.name }}</h2>
@@ -18,13 +19,14 @@
         <h4>{{ site.blogger.comment }}</h4>
       </div>
     {% endif %}
+-->
   </div>
 
 
   <div class="sidebar-menu">
     <div class="sidebar-menu-position">
       {% for menu in site.data.navigation.menu %}
-        <h3 class="menu-title">{{ menu.title }}</h3>
+        <div class="menu-title">{{ menu.title }}</div>
           <ul class="sidebar-submenu">
             {% for submenu in menu.submenu %}
               <li class="menu-subtitle">

@@ -35,6 +35,8 @@
 .post-list-category {
   margin: 0;
   padding: 0 .625rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .post-list-categoryinfo {
@@ -165,51 +167,14 @@
 .post-contents {
   font-size: 1.0625rem;
   font-weight: 200;
-  padding: .9375rem .625rem 0;
+  padding: 2.3rem .625rem 0;
 
   p {
-    line-height: 1.6;
+    line-height: 1.4;
   }
 
-  h1,
-  h2
-  {
-    color: var(--post-purple);
-  }
-  h3,
-  h4,
-  h5,
-  h6
-  {
-    color: var(--post-blue);
-  }
-  
-  p,
-  ul{
-    color:var(--post-white);
-  }
-  
-  strong{
-    color:var(--post-green);
-  }
-  em{
-    color:var(--post-yellow);
-  }
-  del{
-    color:var(--post-red);
-  }
-  a{
-    color:var(--post-grey);
-  }
   @media (max-width: $mobile-max) {
     font-size: .9375rem;
-  }
-
-  ul, ol {
-    @media (max-width: $mobile-max) {
-      padding-inline-start: .93rem;
-      margin-left: .31rem;
-    }
   }
 
   dl {
@@ -296,9 +261,61 @@
   }
 }
 
+.fetchDocsHere span {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.fetchDocsHere span img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: top;
+}
+
+.fetchDocsHere li {
+  color: $color-text;
+  padding: .5rem 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.fetchDocsHere li div {
+  padding-left: .3rem;
+}
+
+.fetchDocsCodeTable {
+  width: -webkit-fill-available;
+}
+
+.fetchDocsHere tr td {
+  width: auto;
+}
+
+.fetchDocsHere tr td div {
+  display: grid;
+
+  p {
+    white-space: nowrap;
+    overflow-x: scroll;  // overflow in code table, in case code is too long.
+    -ms-overflow-style: none;    
+  }
+}
+
+.fetchDocsHere tr td p {
+  margin: .2rem;
+  padding: .2rem;
+  width: auto;
+  word-break: break-all;
+}
+
+.fetchDocsHere tr td div p::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
+}
 
 //=================================================
 
-iframe{
 
-}
+
+

@@ -5,9 +5,9 @@ $color-bg: #1D1F21;
 $color-bg-dark: mix($color-bg, #000000, 75%);
 $color-text: #CCCCCC;
 $color-text-dim: #888888;
-$color-border: mix($color-bg, #ffffff, 96%);
+$color-border: mix($color-bg, #ffffff, 90%);
 $color-border-light: mix($color-bg, #ffffff, 86%);
-$color-menu: #6EBCCC;   // Blue
+$color-menu: #6fa8dc;   // light blue
 $color-link: #CCA56E;   // Yellow
 
 //=================================================
@@ -33,8 +33,6 @@ $hl-blue: #80A2BE; // class
   --post-yellow: #CCA56E;    // etc
   --post-blue: #6EBCCC;    // menu
   --post-white: #CCCCCC;    // contents
-  --post-grey:#888888;
 }
 
 //=================================================
-

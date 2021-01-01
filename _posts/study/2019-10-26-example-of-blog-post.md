@@ -1,25 +1,13 @@
 ---
 layout: post
-title:  "Post example"
-category: 
-comments : true
+title: Post example
+category: study
+list: Study
+comments: true
 ---
 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+<div class='fetchDocsHere'></div>
 
-
-- list
-- list
-
-
-**bold text**
-
-*italic*
-
-~~strike~~
-
+<script>
+    fetchDocs("https://docs.google.com/document/d/e/2PACX-1vQb8aogoNrwonkvJgrsNuwkgEmpvzAEmPCUWg8Rou2PBe9V66M4KzEaowa5b33i-PGekTY6LeUEAqUt/pub?embedded=true")
+</script>
