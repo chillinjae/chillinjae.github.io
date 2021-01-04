@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /me
-list: About Me
+permalink: /me/
+list: Me
 category: me
 Description:
 ---
