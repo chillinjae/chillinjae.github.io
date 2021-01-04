@@ -5,12 +5,3 @@ category: "non"
 list: "Capital"
 comments: false
 ---
-
-
-
-<div class='fetchDocsHere'></div>
-
-<script>
-    const data_link = "url"
-    fetchDocs(data_link)
-</script>

@@ -1,11 +1,12 @@
 <div class="sidebar">
+
+
   <div class="blogger-info">
     <div class="blogger-photo">
-      {% assign blogger-photo = "/assets/images/profile.png" %}
-      <a href="/"><img src="{{ blogger-photo }}" /></a>
+        {% assign blogger-photo = "/assets/images/profile.png" %}
+        <a href="/"><img src="{{ blogger-photo }}"></a>
     </div>
 
-    <!--     
     {% if site.blogger.profile == true %}
       <div class="blogger-name">
         <h2>{{ site.blogger.name }}</h2>
@@ -17,82 +18,38 @@
         <h4>{{ site.blogger.comment }}</h4>
       </div>
     {% endif %}
--->
   </div>
+
 
   <div class="sidebar-menu">
     <div class="sidebar-menu-position">
       {% for menu in site.data.navigation.menu %}
-      <div class="menu-title">{{ menu.title }}</div>
-      <ul class="sidebar-submenu">
-        {% for submenu in menu.submenu %}
-        <li class="menu-subtitle">
-          <a
-            href="{{ submenu.url }}"
-            {%
-            if
-            page.url
-            contains
-            submenu.url
-            %}
-            class="current"
-            {%
-            endif
-            %}
-            >{{ submenu.subtitle }}</a
-          >
-          {% if submenu.category != null %}
-          <span class="sidebar-subtitle-number"
-            >({{ site.categories.[submenu.category] | size }})</span
-          >
-          {% endif %}
-        </li>
-        {% endfor %}
-      </ul>
+        <h3 class="menu-title">{{ menu.title }}</h3>
+          <ul class="sidebar-submenu">
+            {% for submenu in menu.submenu %}
+              <li class="menu-subtitle">
+                <a href="{{ submenu.url }}" {% if page.url contains submenu.url %} class="current" {% endif %}>{{ submenu.subtitle }}</a>
+                {% if submenu.category != null %}
+                  <span class = "sidebar-subtitle-number">({{ site.categories.[submenu.category] | size }})</span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
       {% endfor %}
     </div>
   </div>
 
+
+
   <div class="sidebar-footer">
+
     <div class="footer-links">
       <div class="links-mail">
         <a href="{{ site.blogger.email }}">
           <svg width="24" height="24" viewbox="0 0 120 120">
-            <path
-              style="
-                fill: none;
-                stroke-linecap: round;
-                stroke-miterlimit: 10;
-                stroke-width: 12px;
-              "
-              d="M59.5,96.5H103c9,0,8-8,8-8v-57s1-8-8-8H17c-9,0-8,8-8,8v57s-1,8,8,8H59.5Z"
-            />
-            <line
-              style="
-                fill: none;
-                stroke-linecap: round;
-                stroke-miterlimit: 10;
-                stroke-width: 12px;
-                fill-rule: evenodd;
-              "
-              x1="60"
-              y1="70"
-              x2="11"
-              y2="39"
-            />
-            <line
-              style="
-                fill: none;
-                stroke-linecap: round;
-                stroke-miterlimit: 10;
-                stroke-width: 12px;
-                fill-rule: evenodd;
-              "
-              x1="60"
-              y1="70"
-              x2="109"
-              y2="39"
-            />
+            <path style="fill: none; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 12px;" d="M59.5,96.5H103c9,0,8-8,8-8v-57s1-8-8-8H17c-9,0-8,8-8,8v57s-1,8,8,8H59.5Z"/>
+            <line style="fill: none; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 12px; fill-rule:evenodd;" x1="60" y1="70" x2="11" y2="39"/>
+            <line style="fill: none; stroke-linecap: round; stroke-miterlimit: 10; stroke-width: 12px; fill-rule:evenodd;" x1="60" y1="70" x2="109" y2="39"/>
           </svg>
         </a>
       </div>
@@ -100,12 +57,8 @@
       <div class="links-site">
         <a href="{{ site.blogger.site }}">
           <svg width="24" height="24" viewbox="0 0 120 120">
-            <path
-              d="M63.85,37.57,78.21,23.21C84,17.41,91.32,12.09,99.4,18.1A13.45,13.45,0,0,1,104.14,33c-1,3-3.07,5.07-5.26,7.26l-17,17a70.24,70.24,0,0,1-5.56,5.49,13.54,13.54,0,0,1-17.8-1c-6.77-6.31-17,3.85-10.18,10.18,11.73,10.94,28.7,10.36,40-.79,6.8-6.69,13.49-13.5,20.24-20.24,9.66-9.66,14-22.89,7-35.64C106.74-.95,84.83-3,71.84,9.22c-6.23,5.86-12.13,12.12-18.18,18.17C47.1,34,57.28,44.14,63.85,37.57Z"
-            />
-            <path
-              d="M56.24,83.25l-15,14.27c-5.92,5.62-13.46,10.19-21.12,4C12.23,95.11,15,85.57,21.34,79.58l17.9-17a47.94,47.94,0,0,1,6.15-5.52c5.55-3.66,12.47-2.32,17,2.16C69,65.72,79.22,55.54,72.61,49,61.2,37.81,44.23,38.21,32.7,48.93c-7,6.54-13.93,13.23-20.89,19.85C1.88,78.21-2.75,91.63,4.2,104.46c8.61,15.9,29.8,18.62,43.06,7.14,6.63-5.75,12.8-12.13,19.16-18.17C73.15,87,63,76.86,56.24,83.25Z"
-            />
+            <path d="M63.85,37.57,78.21,23.21C84,17.41,91.32,12.09,99.4,18.1A13.45,13.45,0,0,1,104.14,33c-1,3-3.07,5.07-5.26,7.26l-17,17a70.24,70.24,0,0,1-5.56,5.49,13.54,13.54,0,0,1-17.8-1c-6.77-6.31-17,3.85-10.18,10.18,11.73,10.94,28.7,10.36,40-.79,6.8-6.69,13.49-13.5,20.24-20.24,9.66-9.66,14-22.89,7-35.64C106.74-.95,84.83-3,71.84,9.22c-6.23,5.86-12.13,12.12-18.18,18.17C47.1,34,57.28,44.14,63.85,37.57Z"/>
+            <path d="M56.24,83.25l-15,14.27c-5.92,5.62-13.46,10.19-21.12,4C12.23,95.11,15,85.57,21.34,79.58l17.9-17a47.94,47.94,0,0,1,6.15-5.52c5.55-3.66,12.47-2.32,17,2.16C69,65.72,79.22,55.54,72.61,49,61.2,37.81,44.23,38.21,32.7,48.93c-7,6.54-13.93,13.23-20.89,19.85C1.88,78.21-2.75,91.63,4.2,104.46c8.61,15.9,29.8,18.62,43.06,7.14,6.63-5.75,12.8-12.13,19.16-18.17C73.15,87,63,76.86,56.24,83.25Z"/>
           </svg>
         </a>
       </div>
@@ -113,17 +66,20 @@
       <div class="links-github">
         <a href="{{ site.blogger.github }}">
           <svg width="24" height="24" viewbox="0 0 120 120">
-            <path
-              style="fill-rule: evenodd"
-              d="M60.05,2a60,60,0,0,0-19,116.94c3,.55,4.1-1.31,4.1-2.9,0-1.42,0-5.19-.08-10.2-16.69,3.63-20.21-8-20.21-8C22.16,90.83,18.22,89,18.22,89c-5.44-3.72.42-3.65.42-3.65,6,.43,9.19,6.19,9.19,6.19,5.35,9.17,14,6.52,17.46,5,.54-3.88,2.09-6.52,3.81-8C35.77,87,21.77,81.82,21.77,58.83a23.22,23.22,0,0,1,6.17-16.1c-.61-1.52-2.67-7.62.59-15.88,0,0,5-1.62,16.5,6.15a56.85,56.85,0,0,1,30,0c11.46-7.77,16.49-6.15,16.49-6.15,3.27,8.26,1.21,14.36.59,15.88a23.13,23.13,0,0,1,6.17,16.1c0,23-14,28.12-27.39,29.6C73.08,90.29,75,94,75,99.54c0,8-.07,14.5-.07,16.46,0,1.61,1.08,3.48,4.12,2.89A60,60,0,0,0,60.05,2Z"
-            />
+            <path style="fill-rule: evenodd;" d="M60.05,2a60,60,0,0,0-19,116.94c3,.55,4.1-1.31,4.1-2.9,0-1.42,0-5.19-.08-10.2-16.69,3.63-20.21-8-20.21-8C22.16,90.83,18.22,89,18.22,89c-5.44-3.72.42-3.65.42-3.65,6,.43,9.19,6.19,9.19,6.19,5.35,9.17,14,6.52,17.46,5,.54-3.88,2.09-6.52,3.81-8C35.77,87,21.77,81.82,21.77,58.83a23.22,23.22,0,0,1,6.17-16.1c-.61-1.52-2.67-7.62.59-15.88,0,0,5-1.62,16.5,6.15a56.85,56.85,0,0,1,30,0c11.46-7.77,16.49-6.15,16.49-6.15,3.27,8.26,1.21,14.36.59,15.88a23.13,23.13,0,0,1,6.17,16.1c0,23-14,28.12-27.39,29.6C73.08,90.29,75,94,75,99.54c0,8-.07,14.5-.07,16.46,0,1.61,1.08,3.48,4.12,2.89A60,60,0,0,0,60.05,2Z"/>
           </svg>
         </a>
       </div>
     </div>
 
+
     <div class="copyrights">
-      © 2020 {{ site.blogger.name }}. All rights reserved.
+      © 2021 {{ site.blogger.name }}. All rights reserved.
     </div>
+
   </div>
+
+
 </div>
+
+

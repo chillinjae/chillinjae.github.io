@@ -12,7 +12,7 @@
   <div class="tablet-sidebar-menu">
     <div class="tablet-sidebar-menu-position">
       {% for menu in site.data.navigation.menu %}
-        <div class="tablet-menu-title">{{ menu.title }}</div>
+        <h3 class="tablet-menu-title">{{ menu.title }}</h3>
           <ul class="tablet-sidebar-submenu">
             {% for submenu in menu.submenu %}
               <li class="tablet-menu-subtitle">

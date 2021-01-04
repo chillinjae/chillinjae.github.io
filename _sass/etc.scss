@@ -79,10 +79,9 @@
 .post-link {
   color: $color-link;
   text-decoration: underline;
-  font-weight: bold;
 
   &:hover {
-    color: $color-menu;
+    color: $color-link-hover;
   }
 }
 
