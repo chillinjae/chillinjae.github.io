@@ -15,8 +15,8 @@ This blog is made by Jekyll and Young (@chillinyoung) wrote template from scratc
 - [x] Collecting image paths and copy them to proper jekyll assets folder
 
 ### More to do
-- [ ] CRUD pages based on db data
-- [ ] CRUD by comparing db data and saved data
+- [x] CRUD pages based on db data
+- [x] CRUD by comparing db data and saved data
 - [ ] MacOS UI
 
 ### What We've Learned from it
