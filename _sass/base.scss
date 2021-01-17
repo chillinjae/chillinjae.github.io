@@ -8,11 +8,12 @@ blockquote {
 
 ul {
   line-height: 1.6;
-  margin: 0;
+  margin: 0.5rem 0;
 }
 
 li {
-  padding: 0.1875rem 0;
+  padding: 0;
+  margin: 0.16rem 0;
 
   a {
     color: $color-text;
@@ -24,26 +25,48 @@ li {
 }
 
 p {
-  margin: 0;
+  margin: 0.2rem 0 0.15rem;
 }
 
 h1,
 h2 {
-  margin: 1.875rem 0 0.75rem;
+  margin: 1.9rem 0 0.6rem;
+  color: var(--post-purple);
 }
 
-h3,
-h4,
-h5,
+h3 {
+  margin: 1.9rem 0 0.4rem;
+  color: var(--post-green);
+}
+
+h4 {
+  margin: 1.9rem 0 0.4rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+h5 {
+  margin: 0.5rem 0 0.3rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
 h6 {
-  margin: 0.625rem 0 0.2rem;
+  margin: 0.2rem 0;
+  color: var(--post-red);
+  font-size: 1rem;
+  font-weight: normal;
 }
 
 hr {
   border-color: $color-border;
   border-style: solid;
-  margin: 2.5rem 0;
+  margin: 1.5rem 0;
 }
+
+// img {
+//   max-width: 100%;
+// }
 
 ul ul ul ul {
     list-style-type: circle;
@@ -99,7 +122,7 @@ code {
   border: .0625rem solid $color-border-light;
   border-radius: .4375rem;
   // box-sizing: border-box;
-  margin: .4375rem .125rem .9rem;
+  margin: .4rem .125rem .7rem;
   padding: .125rem .3125rem;
 }
 

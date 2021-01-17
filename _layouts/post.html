@@ -5,7 +5,7 @@ layout: default
 
   <div class="post-intro-contents">
     <div class="post-category">{{ page.list }}</div>
-    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-title">{{ page.title }}</div>
     <div class="post-penname">{{ site.blogger.penname }} &ensp;|</div>
     <div class="post-date">{{ page.date | date_to_string | date: "%b %d, %Y" }}</div>
   </div>
@@ -16,8 +16,3 @@ layout: default
 <div class="post-contents">
   {{ content }}
 </div>
-<br />
-<hr />
-{% if page.comments %}
-<div id="post-disqus" class="container">{% include disqus.html %}</div>
-{% endif %}

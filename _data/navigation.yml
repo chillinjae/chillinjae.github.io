@@ -6,7 +6,7 @@ menu:
         url: /me/
   - title: Notes
     submenu:
+# Bear Categories
       - subtitle: Sample 
         url: /sample/
         category: sample
-      #add here

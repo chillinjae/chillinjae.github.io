@@ -7,14 +7,14 @@ Description:
 ---
 
 <div class="post-list-intro">
-  <h1 class="post-list-category">{{page.list}}</h1>
+  <div class="post-list-category">{{page.list}}</div>
 </div>
 
 <ul class="post-list-contents" id="post-lists">
   {% for post in site.posts limit:10 %}
   <li class="post-list-content">
     <a href="{{ post.url }}">
-      <h2 class="post-list-title">{{ post.title }}</h2>
+      <div class="post-list-title">{{ post.title }}</div>
       <div class="post-list-excerpt">{% include excerpt_list.html %}</div>
       <div class="post-list-category-name">{{ post.list }} &ensp;|</div>
       <div class="post-list-date">
