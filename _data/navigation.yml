@@ -12,18 +12,6 @@ menu:
       - subtitle: Math
         url: /math/
         category: math
-      - subtitle: Algorithm
-        url: /algorithm/
-        category: algorithm
-      - subtitle: Language
-        url: /Language/
-        category: Language
-      - subtitle: Graphics
-        url: /graphics/
-        category: graphics
-      - subtitle: ML&DL
-        url: /MLDL/
-        category: MLDL
       - subtitle: Project
         url: /project/
         category: project
