@@ -1,0 +1,19 @@
+<div class="post-list-intro">
+  <div class="post-list-category">{{page.list}}</div>
+  <div class="post-list-categoryinfo">{{page.description}}</div>
+</div>
+
+<div class="post-multiple" id="post-lists">
+  {% for post in site.categories.[page.category] %}
+    <div class="post-multiple-block">
+      <div class="post-multiple-intro-contents">
+        <div class="post-multiple-title">{{ post.title }}</div>
+        <div class="post-multiple-penname">{{ site.blogger.penname }} &ensp;|</div>
+        <div class="post-multiple-date">{{ post.date | date_to_string | date: "%b %d, %Y" }}</div>
+      </div>
+      <div class="post-multiple-contents">
+        {{ post.content }}
+      </div>
+    </div>
+  {% endfor %}
+</div>

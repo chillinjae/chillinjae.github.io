@@ -11,8 +11,8 @@
 //=================================================
 
 .post-figure {
-    background-color: $color-border;
-    border: .0625rem solid $color-border-light;
+    background-color: var(--line);
+    border: .0625rem solid var(--line-light);
     border-radius: .4375rem;
     display: block;
     font-family: Menlo;
@@ -30,24 +30,6 @@
     -webkit-appearance: none;
 }
 
-//=================================================
-// Post Colors
-
-.post-heading {
-  color: var(--post-purple);
-}
-
-.post-example {
-  color: var(--post-green);
-}
-
-.post-emphasize {
-  color: var(--post-red);
-}
-
-.post-etc {
-  color: var(--post-yellow);
-}
 
 //=================================================
 // Post Content Forms
@@ -76,16 +58,6 @@
 
 //=================================================
 
-.post-link {
-  color: $color-link;
-  text-decoration: underline;
-
-  &:hover {
-    color: $color-link-hover;
-  }
-}
-
-//=================================================
 
 .post-view-more-container {
   display: flex;
@@ -96,17 +68,17 @@
 
 .post-view-more-btn {
   display: inline-block;
-  border: 1px solid $color-border-light;
+  border: 1px solid var(--line-light);
   border-radius: 9px;
   cursor: pointer;
 
   a {
     text-decoration: none;
-    color: $color-text-dim;
+    color: var(--main-text-dim);
   }
 
   a:hover {
-    color: $color-text;
+    color: var(--main-text);
   }
 
   h3 {
@@ -115,8 +87,8 @@
   }
 
   &:hover {
-    border-color: $color-bg-dark;
-    background-color: $color-bg-dark;
+    border-color: var(--background-dim);
+    background-color: var(--background-dim);
   }
 }
 
@@ -126,7 +98,7 @@
   h3 {
     margin: 0;
     padding: .5rem 1.2rem;
-    color: $color-text-dim;
+    color: var(--main-text-dim);
   }
 }
 

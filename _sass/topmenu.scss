@@ -11,8 +11,8 @@
 }
 
 .topmenu-tablet-list {
-  background-color: mix($color-bg, #000000, 75%);
-  color: $color-text;
+  background-color: var(--background-dim);
+  color: var(--main-text);
   float: left;
   height: 100%;
   left: 0;
@@ -23,7 +23,7 @@
 }
 
 .tablet-close-btn {
-  color: $color-text;
+  color: var(--main-text);
   cursor: pointer;
   display: none;
   float: left;
@@ -37,7 +37,7 @@
 
 
 .tablet-open-btn {
-  color: $color-text;
+  color: var(--main-text);
   cursor: pointer;
   display: inline-block;
   float: left;
@@ -63,8 +63,8 @@
 
 .topmenu-mobile-list {
   // -webkit-transition: height .5s;
-  background-color: mix($color-bg, #000000, 75%);
-  color: $color-text;
+  background-color: var(--background-dim);
+  color: var(--main-text);
   height: 0;
   left: 0;
   position: fixed;
@@ -75,7 +75,7 @@
 }
 
 .mobile-close-btn {
-  color: $color-text;
+  color: var(--main-text);
   cursor: pointer;
   display: none;
   float: left;
@@ -88,7 +88,7 @@
 }
 
 .mobile-open-btn {
-  color: $color-text;
+  color: var(--main-text);
   cursor: pointer;
   display: inline-block;
   float: left;

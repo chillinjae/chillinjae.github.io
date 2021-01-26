@@ -40,7 +40,7 @@
 }
 
 .post-list-categoryinfo {
-  color: $color-text-dim;
+  color: var(--main-text-dim);
   margin: 0;
   padding: .1875rem .625rem 0;
 }
@@ -49,7 +49,7 @@
 // Categories Post List "Intro" Styles
 .post-list-contents {
   border-top: .0625rem solid;
-  border-top-color: $color-border;
+  border-top-color: var(--line);
   height: auto;
   padding-inline-start: 0;
 
@@ -58,14 +58,14 @@
     text-decoration: none;
 
     &:hover {
-      background-color: mix($color-bg, #000000, 80%);
+      background-color: var(--background-hover);
     }
   }
 }
 
 .post-list-content {
   border-bottom: .0625rem solid;
-  border-bottom-color: $color-border;
+  border-bottom-color: var(--line);
   display: block;
   list-style-type: none;
   margin: 0;
@@ -73,7 +73,7 @@
 }
 
 .post-list-title {
-  color: $color-menu;
+  color: var(--main-mid);
   font-weight: 400;
   font-size: 1.3125rem;
   margin: 0;
@@ -81,7 +81,7 @@
 }
 
 .post-list-excerpt {
-  color: $color-text;
+  color: var(--main-text);
   font-size: .9375rem;
   margin: 0;
   padding: 0 .625rem;
@@ -92,7 +92,7 @@
 }
 
 .post-list-category-name {
-  color: $color-text-dim;
+  color: var(--main-text-dim);
   display: inline-block;
   font-size: .875rem;
   margin: 0;
@@ -100,7 +100,7 @@
 }
 
 .post-list-date {
-  color: $color-text-dim;
+  color: var(--main-text-dim);
   display: inline-block;
   font-size: .75rem;
   margin: 0;
@@ -113,7 +113,7 @@
 // Post Contents (blog contents) Styles
 .post-intro {
   border-bottom: .0625rem solid;
-  border-bottom-color: $color-border-light;
+  border-bottom-color: var(--line);
   padding: 0 0 .9375rem;
 }
 
@@ -122,7 +122,7 @@
 }
 
 .post-category {
-  color: $color-menu;
+  color: var(--point-dark);
   font-size: 1.125rem;
 
   @media (max-width: $mobile-max) {
@@ -131,7 +131,7 @@
 }
 
 .post-title {
-  color: $color-text;
+  color: var(--main-text);
   font-size: 2rem;
   font-weight: bold;
   margin: 0;
@@ -144,7 +144,7 @@
 }
 
 .post-penname {
-  color: $color-text-dim;
+  color: var(--main-text-dim);
   display: inline-block;
   font-size: 1rem;
 
@@ -154,7 +154,7 @@
 }
 
 .post-date {
-  color: $color-text-dim;
+  color: var(--main-text-dim);
   display: inline-block;
   font-size: .875rem;
   padding-left: .3125rem;
@@ -203,13 +203,13 @@
 
 .post-multiple {
   border-top: .0625rem solid;
-  border-top-color: $color-border-light;
+  border-top-color: var(--line);
   padding: 0;
 }
 
 .post-multiple-block {
   border: 0.1rem solid;
-  border-color: $color-border-light;
+  border-color: var(--line);
   border-radius: 1.5rem;
   margin: 2.5rem .1rem 3rem;
   padding: .8rem;
@@ -217,12 +217,12 @@
 
 .post-multiple-intro-contents {
   border-bottom: .0625rem solid;
-  border-bottom-color: $color-border-light;
+  border-bottom-color: var(--line);
   padding: .9375rem .625rem;
 }
 
 .post-multiple-title {
-  color: $color-text;
+  color: var(--main-mid);
   font-size: 1.6rem;
   font-weight: bold;
   line-height: 1.2;
@@ -235,7 +235,7 @@
 }
 
 .post-multiple-penname {
-  color: $color-text-dim;
+  color: var(--main-text-dim);
   display: inline-block;
   font-size: 0.875rem;
 
@@ -245,7 +245,7 @@
 }
 
 .post-multiple-date {
-  color: $color-text-dim;
+  color: var(--main-text-dim);
   display: inline-block;
   font-size: .875rem;
   padding-left: .3125rem;
@@ -289,6 +289,7 @@
 }
 
 .post-video {
+  filter: brightness(0.8);
   position: absolute;
   top: 0;
   left: 0;
@@ -298,30 +299,46 @@
 }
 
 .page-content img {
+  filter: brightness(0.8);
   width: 80%;
-  margin: 1.5rem 0;
+  max-width: 100%;
   // display: block;    // for center align
-  max-width:80%;
+
   @media (max-width: $tablet-max) {
     margin: 1rem 0;
     width: 100%;
-    max-width:100%;
   }
 }
 
-.page-content p a {
-  color: $color-link;
+.page-content p {
+  font-weight: lighter;
+
+  a {
+    color: var(--point-dark);
+    text-decoration: underline;
+
+    &:hover {
+      color: var(--point-light);
+    }    
+  }
+}
+
+.post-contents a {
+  color: var(--point-dark);
   text-decoration: underline;
 
   &:hover {
-    color: $color-link-hover;
+    color: var(--point-light);
   }
 }
 
-.task-list-item{
+.task-list {
   list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
 }
 
-.task-list{
-  padding-inline-start: 0;
+.task-list-item-checkbox {
+  margin-right: .5rem;
 }

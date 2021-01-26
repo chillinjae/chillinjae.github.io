@@ -58,20 +58,21 @@
   width: 10.625rem;
 
   a {
-    color: $color-text;
+    color: var(--sidebar-submenu);
     font-size: 1rem;
     font-style: normal;
     text-decoration: none;
 
     &:hover {
-      -webkit-text-stroke: 0.03125rem $color-menu;
-      color: $color-menu;
+      -webkit-text-stroke: 0.03125rem var(--sidebar-submenu-hover);
+      color: var(--sidebar-submenu-hover);
     }
   }
 }
 
 
 .tablet-menu-title {
+  color: var(--sidebar-title);
   font-size: 1.25rem;
   font-weight: bold;
   margin: 0;
@@ -88,21 +89,21 @@
 
 .tablet-menu-subtitle {
   font-size: 1.0625rem;
-  padding: .15rem 0;
+  padding: .25rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
   
 
   .tablet-current {
-    -webkit-text-stroke: 0.03125rem $color-menu;
-    color: $color-menu;
+    -webkit-text-stroke: 0.03125rem var(--sidebar-submenu-hover);
+    color: var(--sidebar-submenu-hover);
   }
 }
 
 .tablet-sidebar-subtitle-number {
   font-size: 0.85rem;
-  color: $color-text-dim;
+  color: var(--main-text-dim);
   padding-left: 0.3rem;
 }
 

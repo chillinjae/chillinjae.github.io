@@ -1,12 +1,29 @@
-# sidebar Menu List
 menu:
-  - title: About
+  - title: –– About ––
     submenu:
       - subtitle: Me
         url: /me/
-  - title: Notes
+        category: null
+      - subtitle: TIL
+        url: /TodayILearned/
+        category: null
+  - title: –– Posts ––
     submenu:
-# Bear Categories
-      - subtitle: Sample 
-        url: /sample/
-        category: sample
+      - subtitle: Math
+        url: /math/
+        category: math
+      - subtitle: Algorithm
+        url: /algorithm/
+        category: algorithm
+      - subtitle: Language
+        url: /Language/
+        category: Language
+      - subtitle: Graphics
+        url: /graphics/
+        category: graphics
+      - subtitle: ML&DL
+        url: /MLDL/
+        category: MLDL
+      - subtitle: Project
+        url: /project/
+        category: project

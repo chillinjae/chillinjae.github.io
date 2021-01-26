@@ -59,24 +59,25 @@
   text-align: center;
 
   a {
-    color: $color-text;
+    color: var(--sidebar-submenu);
     font-size: 1.2rem;
     font-style: normal;
     text-decoration: none;
 
     &:hover {
-      -webkit-text-stroke: 0.03125rem $color-menu;
-      color: $color-menu;
+      -webkit-text-stroke: 0.03125rem var(--sidebar-submenu-hover);
+      color: var(--sidebar-submenu-hover);
     }
   }
 }
 
 
 .mobile-menu-title {
-  font-size: 1.25rem;
+  color: var(--sidebar-title);
+  font-size: 1.4rem;
   font-weight: bold;
   margin: 0;
-  padding: 1.1875rem 0 0.375rem;
+  padding: 2rem 0 .4rem;
   white-space: nowrap;
 }
 
@@ -88,20 +89,20 @@
 }
 
 .mobile-menu-subtitle {
-  padding: .4rem 0;
+  padding: .5rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
 
   .mobile-current {
-    -webkit-text-stroke: 0.03125rem $color-menu;
-    color: $color-menu;
+    -webkit-text-stroke: 0.03125rem var(--sidebar-submenu-hover);
+    color: var(--sidebar-submenu-hover);
   }
 }
 
 .mobile-sidebar-subtitle-number {
   font-size: 0.85rem;
-  color: $color-text-dim;
+  color: var(--main-text-dim);
   padding-left: 0.3rem;
 }
 
