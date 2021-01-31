@@ -16,5 +16,6 @@ Jekyll had some issue with MD to HTML parser, so we found other static site gene
 
 Template is cleaned and made as Hugo-theme by Young, and bear-exporter is also applied all differences. Gatsby looks great but seems much similar to Wordpress, I can call it ‘CLI based site builder’. I’ll consider it when I have needs for more complex websites than blog.
 <br>
-
-
+<u></u>
+<u></u>
+<u></u>

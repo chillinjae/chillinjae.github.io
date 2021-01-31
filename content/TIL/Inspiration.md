@@ -12,5 +12,6 @@ date: 2021-01-25
 
 [self taught software engineer](https://selftaughtsoftwareengineer.com/how-i-got-3-software-engineer-offers-from-microsoft-17-months-self-teaching/)
 <br>
-
-
+<u></u>
+<u></u>
+<u></u>
