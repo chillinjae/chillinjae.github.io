@@ -10,16 +10,16 @@
 	[main.params]
 		class = 'hidden'
 [[main]]
-	parent = 'About'
-	name = 'TodayILearned'
-	url = '/TodayILearned/'
-	weight = 2
-	[main.params]
-		class = 'hidden'
-[[main]]
 	identifier = 'Posts'
 	name = 'Posts'
 	weight = 2
+[[main]]
+	parent = 'Posts'
+	name = 'TIL'
+	url = '/TIL/'
+	weight = 1
+	[main.params]
+		class = ''
 [[main]]
 	parent = 'Posts'
 	name = 'math'

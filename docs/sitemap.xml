@@ -3,18 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.jaechoi.dev/todayilearned/</loc>
-    <lastmod>2021-01-25T00:00:00+00:00</lastmod>
+    <loc>https://blog.jaechoi.dev/til/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.jaechoi.dev/todayilearned/inspiration/</loc>
-    <lastmod>2021-01-25T00:00:00+00:00</lastmod>
+    <loc>https://blog.jaechoi.dev/til/change-jekyll-to-hugo/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.jaechoi.dev/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jaechoi.dev/til/inspiration/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -46,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://blog.jaechoi.dev/todayilearned/blog-pipeline-setup-is-done/</loc>
+    <loc>https://blog.jaechoi.dev/til/blog-pipeline-setup-is-done/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url>
   

@@ -7,7 +7,7 @@
 <meta property="og:title" content="Jae&#39;s Blog">
 <meta property="og:description" content="">
 <meta property="og:image" content="/images/profile.png">
-<meta property="og:url" content="/math/">
+<meta property="og:url" content="/til/change-jekyll-to-hugo/">
 <title>Jae&#39;s Blog</title>
 
 
@@ -64,7 +64,7 @@
           
           <li class="menu-subtitle">
             
-            <a href="/math/" class="current">math</a>
+            <a href="/math/" class="">math</a>
 
             
             
@@ -175,7 +175,7 @@
           
           <li class="tablet-menu-subtitle">
             
-            <a href="/math/" class="current">math</a>
+            <a href="/math/" class="">math</a>
           </li>
           
           <li class="tablet-menu-subtitle">
@@ -279,7 +279,7 @@
           
           <li class="mobile-menu-subtitle">
             
-            <a href="/math/" class="current">math</a>
+            <a href="/math/" class="">math</a>
           </li>
           
           <li class="mobile-menu-subtitle">
@@ -353,34 +353,31 @@
 <div class="page">
   <div class="page-content">
 
-    <div class="post-list-intro">
-      <div class="post-list-category">Math</div>
-      <div class="post-list-categoryinfo"></div>
+    <div class="post-intro">
+
+      <div class="post-intro-contents">
+        <div class="post-category">TIL</div>
+        <div class="post-title">Change Jekyll to Hugo</div>
+        <div class="post-penname">Jae Choi &ensp;|</div>
+        <div class="post-date">Jan 31, 2021</div>
+      </div>
+
     </div>
 
-    <ul class="post-list-contents" id="post-lists">
-      
-      <li class="post-list-content">
-        <a href="https://blog.jaechoi.dev/math/calculus-1-plan-week1/">
-          <div class="post-list-title">Calculus 1 - Plan / Week1</div>
-          <div class="post-list-category-name">Jae Choi &ensp;|</div>
-          <div class="post-list-date">
-            Jan 17, 2021
-          </div>
-        </a>
-      </li>
-      
-      <li class="post-list-content">
-        <a href="https://blog.jaechoi.dev/math/math-for-cs-overview/">
-          <div class="post-list-title">Math for CS Overview</div>
-          <div class="post-list-category-name">Jae Choi &ensp;|</div>
-          <div class="post-list-date">
-            Jan 10, 2021
-          </div>
-        </a>
-      </li>
-      
-    </ul>
+    <div class="post-contents">
+      <br>
+<p>Jekyll had some issue with MD to HTML parser, so we found other static site generator. We considered Hugo and Gatsby, but decided to go with Hugo. There are several reasons why.<br>
+<br></p>
+<ul>
+<li>faster</li>
+<li>simple</li>
+<li>less dependency (less plugins though)<br>
+<br></li>
+</ul>
+<p>Template is cleaned and made as Hugo-theme by Young, and bear-exporter is also applied all differences. Gatsby looks great but seems much similar to Wordpress, I can call it ‘CLI based site builder’. I’ll consider it when I have needs for more complex websites than blog.<br>
+<br></p>
+
+    </div>
 
   </div>
 </div>
