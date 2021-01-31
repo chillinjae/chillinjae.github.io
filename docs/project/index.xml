@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jae&#39;s Blog</title>
-    <link>http://jaechoi.dev/project/</link>
+    <link>https://blog.jaechoi.dev/project/</link>
     <description>Recent content on Jae&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jaechoi.dev/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021 Study Plan</title>
-      <link>http://jaechoi.dev/project/2021-study-plan/</link>
+      <link>https://blog.jaechoi.dev/project/2021-study-plan/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jaechoi.dev/project/2021-study-plan/</guid>
+      <guid>https://blog.jaechoi.dev/project/2021-study-plan/</guid>
       <description>Finally, I decide to quit lighting. hope to see how much I can go deeper.
 2021 Plan</description>
     </item>
     
     <item>
       <title>Bear notes export to Jekyll posts</title>
-      <link>http://jaechoi.dev/project/bear-notes-export-to-jekyll-posts/</link>
+      <link>https://blog.jaechoi.dev/project/bear-notes-export-to-jekyll-posts/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jaechoi.dev/project/bear-notes-export-to-jekyll-posts/</guid>
+      <guid>https://blog.jaechoi.dev/project/bear-notes-export-to-jekyll-posts/</guid>
       <description>Intro What we’ve done  call bear notes from Local DB, and parse them save them as .md for Jekyll posts, and generate pages automatically
   What we’ve learned  How the apple devices are synced Query sqlite3 database by python  What we are planning to do further  Making simple MacOS app UI using pyQT
   strike djskjdl

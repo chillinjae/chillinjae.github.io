@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jae&#39;s Blog</title>
-    <link>http://jaechoi.dev/todayilearned/</link>
+    <link>https://blog.jaechoi.dev/todayilearned/</link>
     <description>Recent content on Jae&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jaechoi.dev/todayilearned/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/todayilearned/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Inspiration</title>
-      <link>http://jaechoi.dev/todayilearned/inspiration/</link>
+      <link>https://blog.jaechoi.dev/todayilearned/inspiration/</link>
       <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jaechoi.dev/todayilearned/inspiration/</guid>
+      <guid>https://blog.jaechoi.dev/todayilearned/inspiration/</guid>
       <description>Today I read a blog post about success story of self taught. There are a lot of similar stories about being developer, but as mentioned in the post, most of them are mostly focused on the web development and saying about the good courses or useful materials.
  However, for me, I’m gonna focusing on the computer graphics and algorithms, so I just wondered if there are similar cases. This is a one of the case and it’s very impressive as she studied lots of courses I’m planning to do.</description>
     </item>
     
     <item>
       <title>Blog pipeline setup is done</title>
-      <link>http://jaechoi.dev/todayilearned/blog-pipeline-setup-is-done/</link>
+      <link>https://blog.jaechoi.dev/todayilearned/blog-pipeline-setup-is-done/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jaechoi.dev/todayilearned/blog-pipeline-setup-is-done/</guid>
+      <guid>https://blog.jaechoi.dev/todayilearned/blog-pipeline-setup-is-done/</guid>
       <description>Finally!!!! 😆</description>
     </item>
     

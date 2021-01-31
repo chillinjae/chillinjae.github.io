@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jae&#39;s Blog</title>
-    <link>http://jaechoi.dev/me/</link>
+    <link>https://blog.jaechoi.dev/me/</link>
     <description>Recent content on Jae&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jaechoi.dev/me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
-      <link>http://jaechoi.dev/me/about-me/</link>
+      <link>https://blog.jaechoi.dev/me/about-me/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://jaechoi.dev/me/about-me/</guid>
+      <guid>https://blog.jaechoi.dev/me/about-me/</guid>
       <description>Hello, I’m Jae 😁 🔭 I’m currently studying computer science, focusing on Computer graphics, by myself.
 💬 Ask anything about me via linkedin!
 📫 How to reach out to me: https://www.linkedin.com/in/rakeid/
