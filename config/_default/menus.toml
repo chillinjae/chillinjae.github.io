@@ -8,14 +8,14 @@
 	url = '/me/'
 	weight = 1
 	[main.params]
-		class = ''
+		class = 'hidden'
 [[main]]
 	parent = 'About'
 	name = 'TodayILearned'
 	url = '/TodayILearned/'
 	weight = 2
 	[main.params]
-		class = ''
+		class = 'hidden'
 [[main]]
 	identifier = 'Posts'
 	name = 'Posts'

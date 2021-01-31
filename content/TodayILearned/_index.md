@@ -1,1 +1,1 @@
-This page is about TodayILearned
+Daily Logs
