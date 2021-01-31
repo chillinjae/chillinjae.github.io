@@ -4,6 +4,13 @@
 	weight = 1
 [[main]]
 	parent = 'About'
+	name = 'TIL'
+	url = '/TIL/'
+	weight = 1
+	[main.params]
+		class = 'hidden'
+[[main]]
+	parent = 'About'
 	name = 'me'
 	url = '/me/'
 	weight = 1
@@ -13,13 +20,6 @@
 	identifier = 'Posts'
 	name = 'Posts'
 	weight = 2
-[[main]]
-	parent = 'Posts'
-	name = 'TIL'
-	url = '/TIL/'
-	weight = 1
-	[main.params]
-		class = ''
 [[main]]
 	parent = 'Posts'
 	name = 'math'
