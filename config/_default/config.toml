@@ -1,4 +1,4 @@
-baseURL = "http://jaechoi.dev/"
+baseURL = "https://blog.jaechoi.dev/"
 languageCode = "en-us"
 title = "Jae's Blog"
 theme = "yoming"
