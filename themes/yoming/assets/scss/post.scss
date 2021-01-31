@@ -336,6 +336,15 @@
   padding-inline-start: 0;
 }
 
-.task-list-item-checkbox {
-  margin-right: .5rem;
+.post-contents .task-list-container {
+  padding-inline-start: 16px;
+
+  @media (max-width: $mobile-max) {
+    padding-inline-start: 0rem;
+    
+    input[type=checkbox] {
+      margin-left: 0;
+    }
+  }
 }
+
