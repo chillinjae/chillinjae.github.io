@@ -1,7 +1,7 @@
 baseURL = "https://blog.jaechoi.dev/"
 languageCode = "en-us"
-title = "Jae's Blog"
-theme = "yoming"
+title = "Deep Underground"
+theme = "hugo-yoming-theme"
 googleAnalytics = ""
 publishdir = "docs"
 
