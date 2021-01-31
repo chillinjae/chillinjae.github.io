@@ -1,0 +1,14 @@
+name = "Yoming"
+license = "MIT"
+licenselink = "Link to theme's license"
+description = "Yoming is a theme for a study blog."
+homepage = "Website of your theme"
+tags = ["blog", "simple"]
+features = ["blog"]
+min_version = "0.59.1"
+
+[author]
+    name = "Young Kim"
+    homepage = "https://youngkim.dev/"
+
+# written on Jan 28, 2020

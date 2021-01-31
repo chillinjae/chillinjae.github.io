@@ -1,0 +1,45 @@
+baseURL = "http://jaechoi.dev/"
+languageCode = "en-us"
+title = "Jae's Blog"
+theme = "yoming"
+googleAnalytics = ""
+publishdir = "docs"
+
+[params]
+    userName = "Jae Choi"
+    userPhoto = "/images/profile.png"
+    discription = ""
+    eamil = "mailto:blog@jaechoi.dev"
+    linkedin = "https://www.linkedin.com/in/rakeid/"
+    github = "https://github.com/chillinjae/"
+    timezone = "UTC-8"
+
+
+
+# ======================================
+#  Do NOT modify below config
+#  unless you know what you are doing.
+# ======================================
+
+[module]
+    [[module.mounts]]
+        source = "assets"
+        target = "assets"
+
+    [[module.mounts]]
+        source = "archetypes"
+        target = "archetypes"
+
+[markup]
+    [markup.highlight]
+        # noClasses to false for disable code block styles from Hugo
+        noClasses = false
+        # guessSyntax to true: no need to specify the language for code blocks
+        guessSyntax = true
+        tabWidth = 4
+        lineNos = false
+
+    [markup.goldmark.renderer]
+        # hardWraps and unsafe to true: to keep the current new line styles
+        hardWraps = true
+        unsafe = true

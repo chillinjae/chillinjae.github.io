@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+
+  <body>
+    {{ partial "sidebar.html" . }}
+    {{ partial "topmenu.html" . }}
+    {{ block "main" . }}{{ end }}
+  </body>
+</html>

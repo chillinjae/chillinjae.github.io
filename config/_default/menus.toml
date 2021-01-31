@@ -1,0 +1,36 @@
+[[main]]
+	identifier = 'About'
+	name = 'About'
+	weight = 1
+[[main]]
+	identifier = 'Posts'
+	name = 'Posts'
+	weight = 2
+[[main]]
+	parent = 'Posts'
+	name = 'TodayILearned'
+	url = '/TodayILearned/'
+	weight = 1
+	[main.params]
+		class = ''
+[[main]]
+	parent = 'Posts'
+	name = 'math'
+	url = '/math/'
+	weight = 2
+	[main.params]
+		class = ''
+[[main]]
+	parent = 'Posts'
+	name = 'me'
+	url = '/me/'
+	weight = 3
+	[main.params]
+		class = ''
+[[main]]
+	parent = 'Posts'
+	name = 'project'
+	url = '/project/'
+	weight = 4
+	[main.params]
+		class = ''

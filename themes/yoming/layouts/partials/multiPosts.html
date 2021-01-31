@@ -1,0 +1,25 @@
+<div class="page">
+  <div class="page-content">
+
+    <div class="post-list-intro">
+      <div class="post-list-category">{{ title .Type }}</div>
+      <div class="post-list-categoryinfo">{{ .Content }}</div>
+    </div>
+
+    <div class="post-multiple" id="post-lists">
+      {{ range .Pages }}
+        <div class="post-multiple-block">
+          <div class="post-multiple-intro-contents">
+            <div class="post-multiple-title">{{ .Title }}</div>
+            <div class="post-multiple-penname">{{ .Site.Params.userName }} &ensp;|</div>
+            <div class="post-multiple-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+          </div>
+          <div class="post-multiple-contents">
+            {{ .Content }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+
+  </div>
+</div>
