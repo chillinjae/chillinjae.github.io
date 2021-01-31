@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jae&#39;s Blog</title>
+    <link>http://jaechoi.dev/</link>
+    <description>Recent content on Jae&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://jaechoi.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inspiration</title>
+      <link>http://jaechoi.dev/todayilearned/inspiration/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jaechoi.dev/todayilearned/inspiration/</guid>
+      <description>Today I read a blog post about success story of self taught. There are a lot of similar stories about being developer, but as mentioned in the post, most of them are mostly focused on the web development and saying about the good courses or useful materials.
+ However, for me, I’m gonna focusing on the computer graphics and algorithms, so I just wondered if there are similar cases. This is a one of the case and it’s very impressive as she studied lots of courses I’m planning to do.</description>
+    </item>
+    
+    <item>
+      <title>2021 Study Plan</title>
+      <link>http://jaechoi.dev/project/2021-study-plan/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jaechoi.dev/project/2021-study-plan/</guid>
+      <description>Finally, I decide to quit lighting. hope to see how much I can go deeper.
+2021 Plan</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>http://jaechoi.dev/me/about-me/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jaechoi.dev/me/about-me/</guid>
+      <description>Hello, I’m Jae 😁 🔭 I’m currently studying computer science, focusing on Computer graphics, by myself.
+💬 Ask anything about me via linkedin!
+📫 How to reach out to me: https://www.linkedin.com/in/rakeid/
+👨🏻‍💻 SKILLSET : Python, Git, HTML, CSS, Vanilla Js, Maya and Nuke
+🔑 Research interests :
+ Neural Rendering Computational Photography Generative Models Creative coding Interactive Development Computational Design
+  </description>
+    </item>
+    
+    <item>
+      <title>Bear notes export to Jekyll posts</title>
+      <link>http://jaechoi.dev/project/bear-notes-export-to-jekyll-posts/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jaechoi.dev/project/bear-notes-export-to-jekyll-posts/</guid>
+      <description>Intro What we’ve done  call bear notes from Local DB, and parse them save them as .md for Jekyll posts, and generate pages automatically
+  What we’ve learned  How the apple devices are synced Query sqlite3 database by python  What we are planning to do further  Making simple MacOS app UI using pyQT
+  strike djskjdl
+ghg</description>
+    </item>
+    
+    <item>
+      <title>Blog pipeline setup is done</title>
+      <link>http://jaechoi.dev/todayilearned/blog-pipeline-setup-is-done/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jaechoi.dev/todayilearned/blog-pipeline-setup-is-done/</guid>
+      <description>Finally!!!! 😆</description>
+    </item>
+    
+    <item>
+      <title>Calculus 1 - Plan / Week1</title>
+      <link>http://jaechoi.dev/math/calculus-1-plan-week1/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jaechoi.dev/math/calculus-1-plan-week1/</guid>
+      <description>Plan   Week 1 - Lecture 1-3
+  Week 2 - Lecture 4-6 , assignment 1
+  Week 3 - Lecture 7-9 , Exam 1
+  Week 4 - Lecture 10-12, assignment 2
+  Week 5 - Lecture 13-15, assignment 3
+  Week 6 - Lecture 16-18, Exam 2
+  Week 7 - Lecture 19-21, assignment 4
+  Week 8 - Lecture 22-24, assignment 5,</description>
+    </item>
+    
+    <item>
+      <title>Math for CS Overview</title>
+      <link>http://jaechoi.dev/math/math-for-cs-overview/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://jaechoi.dev/math/math-for-cs-overview/</guid>
+      <description> Single Variable Calculus - MIT OCW 18.01_ ( in Progress ) Multivariable Calculus Differential Equations Linear Algebra Math for Computer Science (A.K.A Discrete Math) 1 Math for Computer Science (A.K.A Discrete Math) 2 Numerical Analysis Probability and Statistics 1 Probability and Statistics 2
+  </description>
+    </item>
+    
+  </channel>
+</rss>
