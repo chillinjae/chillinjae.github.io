@@ -25,7 +25,7 @@ Lecture Videos  Lecture 1 Derivatives, slope, velocity, rate of change Lecture 2
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.jaechoi.dev/logs/change-jekyll-to-hugo/</guid>
-      <description>Jekyll had some issue with MD to HTML parser, so we found other static site generator. We considered Hugo and Gatsby, but decided to go with Hugo. There are several reasons why.
+      <description>Jekyll had some issues with MD to HTML parser, so we found other static site generators. We considered Hugo and Gatsby, and decided to go with Hugo. There are several reasons why.
  faster simple less dependency (less plugins though)
   Template is cleaned and Young made it as Hugo-theme. Bear-exporter (it is named as Pizzly now 🤩) is also applied all differences.
 Gatsby looks great but seems much similar to Wordpress.</description>
