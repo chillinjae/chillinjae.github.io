@@ -1,0 +1,53 @@
+//=================================================
+
+:root {
+// background colors
+  --background: #14171c;
+  --background-dim: #121417;
+  --background-hover: #131618;
+
+// line colors (horizontal lines, code block borders)
+  --line: #23272b;
+  --line-light: mix(var(--line), #ffffff, 93%);
+
+// basic text colors
+  --main-text: #bfbfbf;
+  --main-text-dim: #999999;
+
+// sidebar text color
+  --sidebar-title: #bfbfbf;
+  --sidebar-submenu: #bfbfbf;
+  --sidebar-submenu-hover: #CC9A43;
+
+// header text colors
+  --main-light: #7de8e1;
+  --main-mid: #3F9196;
+  --main-dark: #216065;
+
+// highlight text and mark color
+  --highlight: #5c81bc;
+
+// point colors (usually links and menus)
+  --point-light: #E8C07B;    // light gold
+  --point-dark: #CC9A43;    // gold
+}
+
+//=================================================
+
+// code block colors
+:root {
+  --code-background: #23272b;
+  --code-border: #23272b;
+
+  --code-comment: #4F5459;
+  --code-pink: #C78B97;
+  --code-red: #C66363;
+  --code-lightgrey: #C2C5C3;
+  --code-orange: #D48044;
+  --code-yellow: #D1B06F;
+  --code-purple: #916AA1; // built-in constant, user-defined constant
+  --code-green: #9CB550; // constant, function, class/type, inserted
+  --code-blue: #80A2BE; // class
+}
+
+//=================================================

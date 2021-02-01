@@ -1,7 +1,5 @@
 archetypes
 config
-layouts
-resources
-static
 themes
+static
 .DS_Store
