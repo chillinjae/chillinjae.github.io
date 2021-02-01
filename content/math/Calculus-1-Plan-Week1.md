@@ -3,7 +3,6 @@ title: Calculus 1 - Plan / Week1
 date: 2021-01-17
 ---
 
-
 ## Plan 
 
 - [ ] Week 1 - Lecture 1-3 
@@ -64,6 +63,4 @@ date: 2021-01-17
 * Text 2.1 - 2.6 (p.51 - p. 75)
 * Text 3.1, 3.2, and 3.4. (p.83 - 91, p.98 - 101)
 <br>
-<u></u>
-<u></u>
-<u></u>
+

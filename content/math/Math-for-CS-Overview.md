@@ -3,7 +3,6 @@ title: Math for CS Overview
 date: 2021-01-10
 ---
 
-
 * Single Variable Calculus - MIT OCW 18.01_ ( in Progress )
 * Multivariable Calculus
 * Differential Equations
@@ -16,6 +15,4 @@ date: 2021-01-10
 <br>
 
 <br>
-<u></u>
-<u></u>
-<u></u>
+

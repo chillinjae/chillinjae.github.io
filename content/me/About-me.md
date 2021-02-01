@@ -3,7 +3,6 @@ title: About me
 date: 2021-01-24
 ---
 
-
 # Hello, I’m Jae 😁
 <br>
 
@@ -27,6 +26,4 @@ date: 2021-01-24
 * Interactive Development
 * Computational Design
 <br>
-<u></u>
-<u></u>
-<u></u>
+

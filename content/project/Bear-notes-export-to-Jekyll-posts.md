@@ -3,7 +3,6 @@ title: Bear notes export to Jekyll posts
 date: 2021-01-24
 ---
 
-
 ### Intro
 <br>
 
@@ -26,5 +25,4 @@ date: 2021-01-24
 <br>
 
 ![image](/images/post_images/project/DE699F32-6EF1-4029-9A8B-8973CDB9E01F-366-00004C0D6F0655E7/583903BA-D40A-437C-ACE3-1ECD1A1A459C.png)
-~~ghg~~<u></u>
-<u></u>
+~~ghg~~
