@@ -8,16 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2021 Study Plan</title>
-      <link>https://blog.jaechoi.dev/project/2021-study-plan/</link>
-      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jaechoi.dev/project/2021-study-plan/</guid>
-      <description>Finally, I decide to quit lighting. hope to see how much I can go deeper.
-2021 Plan</description>
-    </item>
-    
-    <item>
       <title>Bear notes export to Jekyll posts</title>
       <link>https://blog.jaechoi.dev/project/bear-notes-export-to-jekyll-posts/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
@@ -25,8 +15,7 @@
       <guid>https://blog.jaechoi.dev/project/bear-notes-export-to-jekyll-posts/</guid>
       <description>Intro What we’ve done  call bear notes from Local DB, and parse them save them as .md for Jekyll posts, and generate pages automatically
   What we’ve learned  How the apple devices are synced Query sqlite3 database by python  What we are planning to do further  Making simple MacOS app UI using pyQT
-  strike djskjdl
-ghg</description>
+  </description>
     </item>
     
   </channel>

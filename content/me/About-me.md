@@ -4,8 +4,6 @@ date: 2021-01-24
 ---
 
 # Hello, I’m Jae 😁
-<br>
-
 🔭 I’m currently studying computer science, focusing on Computer graphics, by myself.
 <br>
 
@@ -25,5 +23,3 @@ date: 2021-01-24
 * Creative coding
 * Interactive Development
 * Computational Design
-<br>
-

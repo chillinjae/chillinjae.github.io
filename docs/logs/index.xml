@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Underground</title>
-    <link>https://blog.jaechoi.dev/til/</link>
+    <link>https://blog.jaechoi.dev/logs/</link>
     <description>Recent content on Deep Underground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/logs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Change Jekyll to Hugo</title>
-      <link>https://blog.jaechoi.dev/til/change-jekyll-to-hugo/</link>
+      <link>https://blog.jaechoi.dev/logs/change-jekyll-to-hugo/</link>
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.jaechoi.dev/til/change-jekyll-to-hugo/</guid>
+      <guid>https://blog.jaechoi.dev/logs/change-jekyll-to-hugo/</guid>
       <description>Jekyll had some issue with MD to HTML parser, so we found other static site generator. We considered Hugo and Gatsby, but decided to go with Hugo. There are several reasons why.
  faster simple less dependency (less plugins though)
   Template is cleaned and made as Hugo-theme by Young, and bear-exporter is also applied all differences. Gatsby looks great but seems much similar to Wordpress, I can call it ‘CLI based site builder’.</description>
@@ -20,20 +20,20 @@
     
     <item>
       <title>Inspiration</title>
-      <link>https://blog.jaechoi.dev/til/inspiration/</link>
+      <link>https://blog.jaechoi.dev/logs/inspiration/</link>
       <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.jaechoi.dev/til/inspiration/</guid>
+      <guid>https://blog.jaechoi.dev/logs/inspiration/</guid>
       <description>Today I read a blog post about success story of self taught. There are a lot of similar stories about being developer, but as mentioned in the post, most of them are mostly focused on the web development and saying about the good courses or useful materials.
  However, for me, I’m gonna focusing on the computer graphics and algorithms, so I just wondered if there are similar cases. This is a one of the case and it’s very impressive as she studied lots of courses I’m planning to do.</description>
     </item>
     
     <item>
       <title>Blog pipeline setup is done</title>
-      <link>https://blog.jaechoi.dev/til/blog-pipeline-setup-is-done/</link>
+      <link>https://blog.jaechoi.dev/logs/blog-pipeline-setup-is-done/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.jaechoi.dev/til/blog-pipeline-setup-is-done/</guid>
+      <guid>https://blog.jaechoi.dev/logs/blog-pipeline-setup-is-done/</guid>
       <description>Finally!!!! 😆</description>
     </item>
     

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Underground</title>
+    <link>https://blog.jaechoi.dev/links/</link>
+    <description>Recent content on Deep Underground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick Links</title>
+      <link>https://blog.jaechoi.dev/links/quick-links/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/links/quick-links/</guid>
+      <description>Useful Links   Inspiring
+ https://github.com/emilwallner https://bkkaggle.github.io/blog/ https://selftaughtsoftwareengineer.com/ https://teachyourselfcs.com/
+    Labs in Vancouver
+ Michiel van de Panne home page Alla Sheffer - Students Yağız Aksoy Ke Li
+    VFX
+ Ziva Dynamics | Home Zurbrigg
+    Graphics Course Archive @ Stanford
+ Courses in Graphics
+    </description>
+    </item>
+    
+  </channel>
+</rss>

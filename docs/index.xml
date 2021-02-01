@@ -8,34 +8,53 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Change Jekyll to Hugo</title>
-      <link>https://blog.jaechoi.dev/til/change-jekyll-to-hugo/</link>
+      <title>Calculus 1 - W1 [2021.02.01 - 2021.02.07]</title>
+      <link>https://blog.jaechoi.dev/math/calculus-1-w1-20210201-20210207/</link>
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.jaechoi.dev/til/change-jekyll-to-hugo/</guid>
+      <guid>https://blog.jaechoi.dev/math/calculus-1-w1-20210201-20210207/</guid>
+      <description>Quick Summary in progress
+Lecture Videos  Lecture 1 Derivatives, slope, velocity, rate of change Lecture 2 Limits, continuity, Trigonometric limits Lecture 3 Derivatives of products, quotients, sine, cosine
+  Lecture Notes  Lecture 1 Derivatives, slope, velocity, rate of change Lecture 2 Limits, continuity, Trigonometric limits Lecture 3 Derivatives of products, quotients, sine, cosine
+  Reading  Section 1-4 Text 2.1 - 2.6 (p.51 - p. 75) Text 3.</description>
+    </item>
+    
+    <item>
+      <title>Change Jekyll to Hugo</title>
+      <link>https://blog.jaechoi.dev/logs/change-jekyll-to-hugo/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/logs/change-jekyll-to-hugo/</guid>
       <description>Jekyll had some issue with MD to HTML parser, so we found other static site generator. We considered Hugo and Gatsby, but decided to go with Hugo. There are several reasons why.
  faster simple less dependency (less plugins though)
   Template is cleaned and made as Hugo-theme by Young, and bear-exporter is also applied all differences. Gatsby looks great but seems much similar to Wordpress, I can call it ‘CLI based site builder’.</description>
     </item>
     
     <item>
-      <title>Inspiration</title>
-      <link>https://blog.jaechoi.dev/til/inspiration/</link>
-      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      <title>Quick Links</title>
+      <link>https://blog.jaechoi.dev/links/quick-links/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.jaechoi.dev/til/inspiration/</guid>
-      <description>Today I read a blog post about success story of self taught. There are a lot of similar stories about being developer, but as mentioned in the post, most of them are mostly focused on the web development and saying about the good courses or useful materials.
- However, for me, I’m gonna focusing on the computer graphics and algorithms, so I just wondered if there are similar cases. This is a one of the case and it’s very impressive as she studied lots of courses I’m planning to do.</description>
+      <guid>https://blog.jaechoi.dev/links/quick-links/</guid>
+      <description>Useful Links   Inspiring
+ https://github.com/emilwallner https://bkkaggle.github.io/blog/ https://selftaughtsoftwareengineer.com/ https://teachyourselfcs.com/
+    Labs in Vancouver
+ Michiel van de Panne home page Alla Sheffer - Students Yağız Aksoy Ke Li
+    VFX
+ Ziva Dynamics | Home Zurbrigg
+    Graphics Course Archive @ Stanford
+ Courses in Graphics
+    </description>
     </item>
     
     <item>
-      <title>2021 Study Plan</title>
-      <link>https://blog.jaechoi.dev/project/2021-study-plan/</link>
-      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+      <title>Inspiration</title>
+      <link>https://blog.jaechoi.dev/logs/inspiration/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.jaechoi.dev/project/2021-study-plan/</guid>
-      <description>Finally, I decide to quit lighting. hope to see how much I can go deeper.
-2021 Plan</description>
+      <guid>https://blog.jaechoi.dev/logs/inspiration/</guid>
+      <description>Today I read a blog post about success story of self taught. There are a lot of similar stories about being developer, but as mentioned in the post, most of them are mostly focused on the web development and saying about the good courses or useful materials.
+ However, for me, I’m gonna focusing on the computer graphics and algorithms, so I just wondered if there are similar cases. This is a one of the case and it’s very impressive as she studied lots of courses I’m planning to do.</description>
     </item>
     
     <item>
@@ -49,8 +68,7 @@
 📫 How to reach out to me: https://www.linkedin.com/in/rakeid/
 👨🏻‍💻 SKILLSET : Python, Git, HTML, CSS, Vanilla Js, Maya and Nuke
 🔑 Research interests :
- Neural Rendering Computational Photography Generative Models Creative coding Interactive Development Computational Design
-  </description>
+ Neural Rendering Computational Photography Generative Models Creative coding Interactive Development Computational Design  </description>
     </item>
     
     <item>
@@ -61,25 +79,24 @@
       <guid>https://blog.jaechoi.dev/project/bear-notes-export-to-jekyll-posts/</guid>
       <description>Intro What we’ve done  call bear notes from Local DB, and parse them save them as .md for Jekyll posts, and generate pages automatically
   What we’ve learned  How the apple devices are synced Query sqlite3 database by python  What we are planning to do further  Making simple MacOS app UI using pyQT
-  strike djskjdl
-ghg</description>
+  </description>
     </item>
     
     <item>
       <title>Blog pipeline setup is done</title>
-      <link>https://blog.jaechoi.dev/til/blog-pipeline-setup-is-done/</link>
+      <link>https://blog.jaechoi.dev/logs/blog-pipeline-setup-is-done/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.jaechoi.dev/til/blog-pipeline-setup-is-done/</guid>
+      <guid>https://blog.jaechoi.dev/logs/blog-pipeline-setup-is-done/</guid>
       <description>Finally!!!! 😆</description>
     </item>
     
     <item>
-      <title>Calculus 1 - Plan / Week1</title>
-      <link>https://blog.jaechoi.dev/math/calculus-1-plan-week1/</link>
+      <title>Calculus 1 - Overview</title>
+      <link>https://blog.jaechoi.dev/math/calculus-1-overview/</link>
       <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.jaechoi.dev/math/calculus-1-plan-week1/</guid>
+      <guid>https://blog.jaechoi.dev/math/calculus-1-overview/</guid>
       <description>Plan   Week 1 - Lecture 1-3
   Week 2 - Lecture 4-6 , assignment 1
   Week 3 - Lecture 7-9 , Exam 1
@@ -96,7 +113,15 @@ ghg</description>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.jaechoi.dev/math/math-for-cs-overview/</guid>
-      <description> Single Variable Calculus - MIT OCW 18.01_ ( in Progress ) Multivariable Calculus Differential Equations Linear Algebra Math for Computer Science (A.K.A Discrete Math) 1 Math for Computer Science (A.K.A Discrete Math) 2 Numerical Analysis Probability and Statistics 1 Probability and Statistics 2
+      <description>  Single Variable Calculus - MIT OCW 18.01_ ( in Progress )
+  Multivariable Calculus
+  Differential Equations
+  Linear Algebra
+  Math for Computer Science (A.K.A Discrete Math) 1
+  Math for Computer Science (A.K.A Discrete Math) 2
+  Numerical Analysis
+  Probability and Statistics 1
+  Probability and Statistics 2
   </description>
     </item>
     
