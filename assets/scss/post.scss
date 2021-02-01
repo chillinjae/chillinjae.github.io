@@ -12,14 +12,14 @@
 
 .page-content {
   min-height: inherit;
-  padding: 5rem 13% 0rem;
+  padding: 5rem 13% 1.875rem;
 
   @media (max-width: $tablet-max) {
-    padding: 5rem 13% 0rem;
+    padding: 5rem 13% 1.875rem;
   }
 
   @media (max-width: $mobile-max) {
-    padding: 5rem 7% 0rem;
+    padding: 5rem 7% 1.875rem;
   }
 }
 
@@ -166,7 +166,7 @@
 }
 
 .post-contents {
-  min-height: 40vh;
+  min-height: 37vh;
   font-size: 1.0625rem;
   font-weight: 200;
   padding: .9375rem .625rem 0;
