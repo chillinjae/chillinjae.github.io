@@ -1,5 +1,5 @@
 ---
-title: Calculus 1 - W1 [2021.02.01 - 2021.02.07]
+title: Calculus 1 - W1
 date: 2021-01-31
 ---
 

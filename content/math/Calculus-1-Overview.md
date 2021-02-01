@@ -42,4 +42,3 @@ date: 2021-01-17
 * Simmons, George F. Calculus with Analytic Geometry. 2nd ed. New York, NY: McGraw-Hill, October 1, 1996. ISBN: 9780070576421
 <br>
 
----

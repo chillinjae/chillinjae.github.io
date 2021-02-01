@@ -15,7 +15,8 @@
       <guid>https://blog.jaechoi.dev/logs/change-jekyll-to-hugo/</guid>
       <description>Jekyll had some issue with MD to HTML parser, so we found other static site generator. We considered Hugo and Gatsby, but decided to go with Hugo. There are several reasons why.
  faster simple less dependency (less plugins though)
-  Template is cleaned and made as Hugo-theme by Young, and bear-exporter is also applied all differences. Gatsby looks great but seems much similar to Wordpress, I can call it ‘CLI based site builder’.</description>
+  Template is cleaned and Young made it as Hugo-theme. Bear-exporter (it is named as Pizzly now 🤩) is also applied all differences.
+Gatsby looks great but seems much similar to Wordpress.</description>
     </item>
     
     <item>
