@@ -6,7 +6,27 @@
     <description>Recent content on Deep Underground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS practice</title>
+      <link>https://blog.jaechoi.dev/project/js-practice/</link>
+      <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/project/js-practice/</guid>
+      <description>Archive of old projects  Learned Vanilla JS and write basic CRUD functions by making Todo app on browser. referred to the app called Momentum which is a chrome extension for new tab and window.
+  Learning Vanilla JS</description>
+    </item>
+    
+    <item>
+      <title>Kakao Clone</title>
+      <link>https://blog.jaechoi.dev/project/kakao-clone/</link>
+      <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/project/kakao-clone/</guid>
+      <description>Archive of old projects  Cloned UI of Kakao talk which is the most famous messenger in South Korea. Learned how to make UI elements by using HTML and CSS, especially flex layout.
+  Chats | Kakao Clone</description>
+    </item>
+    
     <item>
       <title>Bear notes export to Jekyll posts</title>
       <link>https://blog.jaechoi.dev/project/bear-notes-export-to-jekyll-posts/</link>

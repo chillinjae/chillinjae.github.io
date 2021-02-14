@@ -4,7 +4,7 @@ date: 2021-01-24
 ---
 
 # Hello, I’m Jae 😁
-🔭 I’m currently studying computer science, focusing on Computer graphics, by myself.
+🔭 I’m working at the animation studio as pipeline TD, especially focusing on the lighting and compositing side. I also keep learning CS for being better engineer in this industry through the materials from all around the world.  All of this journey started from a tiny step of python scripting while working as lighter. Hope that I can go deeper inside and contribute for the artists, industry and the communities.
 <br>
 
 💬 Ask anything about me via linkedin!
@@ -13,13 +13,8 @@ date: 2021-01-24
 📫 How to reach out to me: https://www.linkedin.com/in/rakeid/
 <br>
 
-👨🏻‍💻 SKILLSET : Python, Git, HTML, CSS, Vanilla Js, Maya and Nuke
+👨🏻‍💻 SKILLSET : Python, Git, Maya, Nuke, Javascript, HTML and CSS
 <br>
 
-🔑 Research interests : 
-* Neural Rendering
-* Computational Photography
-* Generative Models
-* Creative coding
-* Interactive Development
-* Computational Design
+<br>
+

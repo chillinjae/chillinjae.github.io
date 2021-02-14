@@ -20,9 +20,10 @@ date: 2021-01-31
 	* [Ke Li](http://www.sfu.ca/~keli/)
 <br>
 
-3. VFX 
-	* [Ziva Dynamics | Home](https://zivadynamics.com/)
+3. VFX  and Animation
 	* [Zurbrigg](https://zurbrigg.com/)
+	* [Practical Pipeline 0.9 documentation](http://pipeline.asimation.com/)
+	* [Ziva Dynamics | Home](https://zivadynamics.com/)
 <br>
 
 4. Graphics Course Archive @ Stanford

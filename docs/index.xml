@@ -6,7 +6,36 @@
     <description>Recent content on Deep Underground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS practice</title>
+      <link>https://blog.jaechoi.dev/project/js-practice/</link>
+      <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/project/js-practice/</guid>
+      <description>Archive of old projects  Learned Vanilla JS and write basic CRUD functions by making Todo app on browser. referred to the app called Momentum which is a chrome extension for new tab and window.
+  Learning Vanilla JS</description>
+    </item>
+    
+    <item>
+      <title>Kakao Clone</title>
+      <link>https://blog.jaechoi.dev/project/kakao-clone/</link>
+      <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/project/kakao-clone/</guid>
+      <description>Archive of old projects  Cloned UI of Kakao talk which is the most famous messenger in South Korea. Learned how to make UI elements by using HTML and CSS, especially flex layout.
+  Chats | Kakao Clone</description>
+    </item>
+    
+    <item>
+      <title>Improvisation</title>
+      <link>https://blog.jaechoi.dev/logs/improvisation/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/logs/improvisation/</guid>
+      <description>Inspiration, Imitation and Re-creation.</description>
+    </item>
+    
     <item>
       <title>Change Jekyll to Hugo</title>
       <link>https://blog.jaechoi.dev/logs/change-jekyll-to-hugo/</link>
@@ -15,8 +44,7 @@
       <guid>https://blog.jaechoi.dev/logs/change-jekyll-to-hugo/</guid>
       <description>Jekyll had some issues with MD to HTML parser, so we found other static site generators. We considered Hugo and Gatsby, and decided to go with Hugo. There are several reasons why.
  faster simple less dependency (less plugins though)
-  Template is cleaned and Young made it as Hugo-theme. Bear-exporter (it is named as Pizzly now 🤩) is also applied all differences.
-Gatsby looks great but seems much similar to Wordpress.</description>
+  Template is cleaned and Young made it as Hugo-theme. Bear-exporter (it is named as Pizzly now 🤩) is also applied all differences. Gatsby looks great but seems much similar to Wordpress.</description>
     </item>
     
     <item>
@@ -29,8 +57,8 @@ Gatsby looks great but seems much similar to Wordpress.</description>
  https://github.com/emilwallner https://bkkaggle.github.io/blog/ https://selftaughtsoftwareengineer.com/ https://teachyourselfcs.com/
     Labs in Vancouver
  Michiel van de Panne home page Alla Sheffer - Students Yağız Aksoy Ke Li
-    VFX
- Ziva Dynamics | Home Zurbrigg
+    VFX and Animation
+ Zurbrigg Practical Pipeline 0.9 documentation Ziva Dynamics | Home
     Graphics Course Archive @ Stanford
  Courses in Graphics
     </description>
@@ -42,12 +70,7 @@ Gatsby looks great but seems much similar to Wordpress.</description>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.jaechoi.dev/me/about-me/</guid>
-      <description>Hello, I’m Jae 😁 🔭 I’m currently studying computer science, focusing on Computer graphics, by myself.
-💬 Ask anything about me via linkedin!
-📫 How to reach out to me: https://www.linkedin.com/in/rakeid/
-👨🏻‍💻 SKILLSET : Python, Git, HTML, CSS, Vanilla Js, Maya and Nuke
-🔑 Research interests :
- Neural Rendering Computational Photography Generative Models Creative coding Interactive Development Computational Design  </description>
+      <description>Hello, I’m Jae 😁 🔭 I’m working at the animation studio as pipeline TD, especially focusing on the lighting and compositing side. I also keep learning CS for being better engineer in this industry through the materials from all around the world. All of this journey started from a tiny step of python scripting while working as lighter. Hope that I can go deeper inside and contribute for the artists, industry and the communities.</description>
     </item>
     
     <item>
@@ -76,15 +99,7 @@ Gatsby looks great but seems much similar to Wordpress.</description>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.jaechoi.dev/math/math-for-cs-overview/</guid>
-      <description>  Single Variable Calculus - MIT OCW 18.01_ ( in Progress )
-  Multivariable Calculus
-  Differential Equations
-  Linear Algebra
-  Math for Computer Science (A.K.A Discrete Math) 1
-  Math for Computer Science (A.K.A Discrete Math) 2
-  Numerical Analysis
-  Probability and Statistics 1
-  Probability and Statistics 2
+      <description> Single Variable Calculus - MIT OCW 18.01 Multivariable Calculus Differential Equations Linear Algebra - TRU + MIT combo Math for Computer Science (A.K.A Discrete Math) 1 - TRU + MIT combo Math for Computer Science (A.K.A Discrete Math) 2 Numerical Analysis Probability and Statistics 1 - TRU + MIT combo Probability and Statistics 2
   </description>
     </item>
     
