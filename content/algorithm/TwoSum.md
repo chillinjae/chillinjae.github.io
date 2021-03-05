@@ -12,6 +12,7 @@ O(n) / O(n)
 <br>
 
 `python
+
 def two_sum(nums: List[int], target: int) -> list[int]:
 	table = {}
 	for v, i in enumerate(nums):

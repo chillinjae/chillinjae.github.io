@@ -496,7 +496,16 @@
 <h3 id="approach-3--one-pass-hash-table">Approach 3 : One-pass Hash Table</h3>
 <p>O(n) / O(n)<br>
 <br></p>
-<p><code>python def two_sum(nums: List[int], target: int) -&gt; list[int]: table = {} for v, i in enumerate(nums): remain = target - v if remain not in table.keys(): table[v] = i else: return [table[remain], i]</code></p>
+<p>`python</p>
+<p>def two_sum(nums: List[int], target: int) -&gt; list[int]:<br>
+table = {}<br>
+for v, i in enumerate(nums):<br>
+remain = target - v<br>
+if remain not in table.keys():<br>
+table[v] = i<br>
+else:<br>
+return [table[remain], i]<br>
+`</p>
 
     </div>
     <hr style="border: none; border-top: 0.0625rem solid #23272b;">
