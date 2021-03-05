@@ -1,6 +1,6 @@
 ---
 title: Two-Sum
-date: 2021-03-04
+date: 2021-03-05
 ---
 
 ### Approach 1: Brute Force
@@ -9,6 +9,8 @@ O(n^2)
 O(n) / O(n)
 ### Approach 3 : One-pass Hash Table
 O(n) / O(n)
+<br>
+
 `python
 def two_sum(nums: List[int], target: int) -> list[int]:
 	table = {}
