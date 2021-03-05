@@ -8,7 +8,7 @@ O(n^2)
 ### Approach 2 : Two-pass Hash Table
 O(n) / O(n)
 ### Approach 3 : One-pass Hash Table
-O(n) / O(n) what
+O(n) / O(n) 
 <br>
 
 ```python
