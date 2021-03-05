@@ -6,7 +6,97 @@
     <description>Recent content on Deep Underground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to start Leetcode</title>
+      <link>https://blog.jaechoi.dev/algorithm/how-to-start-leetcode/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/algorithm/how-to-start-leetcode/</guid>
+      <description>This article was really helpful to understand where I start it from.
+Read this before you start solving problems on Leetcode (Prep Work) | by Ali Mir | Medium</description>
+    </item>
+    
+    <item>
+      <title>Two-Sum</title>
+      <link>https://blog.jaechoi.dev/algorithm/twosum/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/algorithm/twosum/</guid>
+      <description>Approach 1: Brute Force O(n^2)
+Approach 2 : Two-pass Hash Table O(n) / O(n)
+Approach 3 : One-pass Hash Table O(n) / O(n)
+python def two_sum(nums: List[int], target: int) -&amp;gt; list[int]: table = {} for v, i in enumerate(nums): remain = target - v if remain not in table.keys(): table[v] = i else: return [table[remain], i]</description>
+    </item>
+    
+    <item>
+      <title>TIL - Feb 22, 2021</title>
+      <link>https://blog.jaechoi.dev/logs/til-feb-22-2021/</link>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/logs/til-feb-22-2021/</guid>
+      <description>Daily record   Math
+single variable calculus lecture 5
+implicit differentiation for several functions. some polynomials, inverse function. inverse function for trigonometry is using geometrical approach and it looked really good.
+  Pipeline
+qfilesystemwatcher
+https://www.patreon.com/posts/qt-for-python-47747835
+got some books to read about qt
+  Python
+finished PS3 of 6.0001
+  DSAs - book
+Reading python cookbook ch1
+  Workout
+  </description>
+    </item>
+    
+    <item>
+      <title>./missing-semester from MIT</title>
+      <link>https://blog.jaechoi.dev/cs/missingsemester-from-mit/</link>
+      <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/cs/missingsemester-from-mit/</guid>
+      <description>Material 2020 Lectures · the missing semester of your cs education
+2020 Lectures   Course overview + the shell
+  Shell Tools and Scripting
+  Editors (Vim)
+  Data Wrangling
+  Command-line Environment
+  Version Control (Git)
+  Debugging and Profiling
+  Metaprogramming
+  Security and Cryptography
+  Potpourri
+  Q&amp;amp;A
+  Video recordings of the lectures are available on YouTube</description>
+    </item>
+    
+    <item>
+      <title>CSE167 on edX</title>
+      <link>https://blog.jaechoi.dev/cs/cse167-on-edx/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/cs/cse167-on-edx/</guid>
+      <description>Materials Having issue to run the assignments program on macOs. 🤦🏻‍♂️
+Course overview This course is for basic understanding of graphics using OpenGL. It is not a hands-on, practical OpenGL Programming course, but it offers graphics ‘concepts’ overall.
+What I learned What I’m going to do next  indepth graphics practical opengl or webgl
+  </description>
+    </item>
+    
+    <item>
+      <title>IELTS result</title>
+      <link>https://blog.jaechoi.dev/logs/ielts-result/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/logs/ielts-result/</guid>
+      <description>I’ve taken 2 weeks of break before starting new role, and it was actually only for getting this result. I just worried a bit and it’s not fully satisfying but now I can apply for the bachelor level of studies :) hope I can start new studies in the local colleges.
+[image:BD5A30E1-8F1F-41D0-8325-154C147106D7-1295-000003995A01B313/Screen Shot 2021-02-14 at 1.43.08 PM.png]
+Listening 7.0 / 9.0
+Reading 8.5 / 9.0
+Writing 6.0 / 9.0
+Speaking 6.</description>
+    </item>
+    
     <item>
       <title>JS practice</title>
       <link>https://blog.jaechoi.dev/project/js-practice/</link>
@@ -25,15 +115,6 @@
       <guid>https://blog.jaechoi.dev/project/kakao-clone/</guid>
       <description>Archive of old projects  Cloned UI of Kakao talk which is the most famous messenger in South Korea. Learned how to make UI elements by using HTML and CSS, especially flex layout.
   Chats | Kakao Clone</description>
-    </item>
-    
-    <item>
-      <title>Improvisation</title>
-      <link>https://blog.jaechoi.dev/logs/improvisation/</link>
-      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jaechoi.dev/logs/improvisation/</guid>
-      <description>Inspiration, Imitation and Re-creation.</description>
     </item>
     
     <item>
@@ -58,10 +139,22 @@
     Labs in Vancouver
  Michiel van de Panne home page Alla Sheffer - Students Yağız Aksoy Ke Li
     VFX and Animation
- Zurbrigg Practical Pipeline 0.9 documentation Ziva Dynamics | Home
+ Zurbrigg Practical Pipeline 0.9 documentation Home | Chad Vernon Ziva Dynamics | Home
     Graphics Course Archive @ Stanford
  Courses in Graphics
     </description>
+    </item>
+    
+    <item>
+      <title>MIT 6.000x on edX</title>
+      <link>https://blog.jaechoi.dev/cs/mit-6000x-on-edx/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/cs/mit-6000x-on-edx/</guid>
+      <description>Materials Computational Thinking using Python XSeries Program | edX
+6.0001 6.0002
+Course overview This course is focusing on introducing programming concepts and basic algorithms. It has a similar position with CS50 of Harvard but I felt that it’s more related to my purpose which is checking if any missing parts on python programming.
+Lecture is available on both Youtube and edX. I like Youtube version more though. Assignment and exam is similar but edX version is a bit easier than offline class materials.</description>
     </item>
     
     <item>
@@ -99,8 +192,15 @@
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.jaechoi.dev/math/math-for-cs-overview/</guid>
-      <description> Single Variable Calculus - MIT OCW 18.01 Multivariable Calculus Differential Equations Linear Algebra - TRU + MIT combo Math for Computer Science (A.K.A Discrete Math) 1 - TRU + MIT combo Math for Computer Science (A.K.A Discrete Math) 2 Numerical Analysis Probability and Statistics 1 - TRU + MIT combo Probability and Statistics 2
-  </description>
+      <description>Single Variable Calculus - MIT OCW 18.01
+  Multivariable Calculus
+  Differential Equations
+  Linear Algebra - TRU + MIT combo
+  Math for Computer Science (A.K.A Discrete Math) 1 - TRU + MIT combo
+  Math for Computer Science (A.K.A Discrete Math) 2
+  Numerical Analysis
+  Probability and Statistics 1 - TRU + MIT combo
+  Probability and Statistics 2</description>
     </item>
     
   </channel>

@@ -23,6 +23,7 @@ date: 2021-01-31
 3. VFX  and Animation
 	* [Zurbrigg](https://zurbrigg.com/)
 	* [Practical Pipeline 0.9 documentation](http://pipeline.asimation.com/)
+	* [Home | Chad Vernon](https://www.chadvernon.com/)
 	* [Ziva Dynamics | Home](https://zivadynamics.com/)
 <br>
 

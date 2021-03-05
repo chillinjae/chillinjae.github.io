@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Underground</title>
+    <link>https://blog.jaechoi.dev/cs/</link>
+    <description>Recent content on Deep Underground</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/cs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>./missing-semester from MIT</title>
+      <link>https://blog.jaechoi.dev/cs/missingsemester-from-mit/</link>
+      <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/cs/missingsemester-from-mit/</guid>
+      <description>Material 2020 Lectures · the missing semester of your cs education
+2020 Lectures   Course overview + the shell
+  Shell Tools and Scripting
+  Editors (Vim)
+  Data Wrangling
+  Command-line Environment
+  Version Control (Git)
+  Debugging and Profiling
+  Metaprogramming
+  Security and Cryptography
+  Potpourri
+  Q&amp;amp;A
+  Video recordings of the lectures are available on YouTube</description>
+    </item>
+    
+    <item>
+      <title>CSE167 on edX</title>
+      <link>https://blog.jaechoi.dev/cs/cse167-on-edx/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/cs/cse167-on-edx/</guid>
+      <description>Materials Having issue to run the assignments program on macOs. 🤦🏻‍♂️
+Course overview This course is for basic understanding of graphics using OpenGL. It is not a hands-on, practical OpenGL Programming course, but it offers graphics ‘concepts’ overall.
+What I learned What I’m going to do next  indepth graphics practical opengl or webgl
+  </description>
+    </item>
+    
+    <item>
+      <title>MIT 6.000x on edX</title>
+      <link>https://blog.jaechoi.dev/cs/mit-6000x-on-edx/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/cs/mit-6000x-on-edx/</guid>
+      <description>Materials Computational Thinking using Python XSeries Program | edX
+6.0001 6.0002
+Course overview This course is focusing on introducing programming concepts and basic algorithms. It has a similar position with CS50 of Harvard but I felt that it’s more related to my purpose which is checking if any missing parts on python programming.
+Lecture is available on both Youtube and edX. I like Youtube version more though. Assignment and exam is similar but edX version is a bit easier than offline class materials.</description>
+    </item>
+    
+  </channel>
+</rss>
