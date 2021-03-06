@@ -1,6 +1,6 @@
 ---
 title: How to start Leetcode
-date: 2021-03-04
+date: 2021-03-03
 ---
 
 This article was really helpful to understand where I start it from. 

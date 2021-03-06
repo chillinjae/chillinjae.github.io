@@ -8,9 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Add Two Numbers</title>
+      <link>https://blog.jaechoi.dev/algorithm/add-two-numbers/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/algorithm/add-two-numbers/</guid>
+      <description>Recursion and linked list # class ListNode: # def __init__(self, val=0, next=None): # self.val = val # self.next = next class Solution: def addTwoNumbers(self, l1: ListNode, l2: ListNode, r=0) -&amp;gt; ListNode: l1_val = l1.val if l1 else None l2_val = l2.val if l2 else None if (l1_val,l2_val,r) == (None,None,0): return None elif (l1_val,l2_val,r) == (None,None,1): return ListNode(val=1, next = None) elif l1_val == None: sum = l2_val + r r = int(sum/10) sum = sum if (sum&amp;lt;10) else (sum-r*10) return ListNode(val=sum, next=self.</description>
+    </item>
+    
+    <item>
       <title>Two-Sum</title>
       <link>https://blog.jaechoi.dev/algorithm/twosum/</link>
-      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.jaechoi.dev/algorithm/twosum/</guid>
       <description>Approach 1: Brute Force O(n^2)
@@ -22,11 +31,21 @@ def two_sum(nums: List[int], target: int) -&amp;gt; list[int]: table = {} for v,
     <item>
       <title>How to start Leetcode</title>
       <link>https://blog.jaechoi.dev/algorithm/how-to-start-leetcode/</link>
-      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.jaechoi.dev/algorithm/how-to-start-leetcode/</guid>
       <description>This article was really helpful to understand where I start it from.
 Read this before you start solving problems on Leetcode (Prep Work) | by Ali Mir | Medium</description>
+    </item>
+    
+    <item>
+      <title>Topics</title>
+      <link>https://blog.jaechoi.dev/algorithm/topics/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/algorithm/topics/</guid>
+      <description> Brute Force Two-pass hash table One-pass hash table Linked List Recursion
+  </description>
     </item>
     
   </channel>

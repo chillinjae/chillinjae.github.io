@@ -1,6 +1,6 @@
 ---
 title: Two-Sum
-date: 2021-03-05
+date: 2021-03-04
 ---
 
 ### Approach 1: Brute Force
