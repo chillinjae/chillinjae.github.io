@@ -6,28 +6,7 @@
     <description>Recent content on Deep Underground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/logs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>TIL - Feb 22, 2021</title>
-      <link>https://blog.jaechoi.dev/logs/til-feb-22-2021/</link>
-      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jaechoi.dev/logs/til-feb-22-2021/</guid>
-      <description>Daily record   Math
-single variable calculus lecture 5
-implicit differentiation for several functions. some polynomials, inverse function. inverse function for trigonometry is using geometrical approach and it looked really good.
-  Pipeline
-qfilesystemwatcher
-https://www.patreon.com/posts/qt-for-python-47747835
-got some books to read about qt
-  Python
-finished PS3 of 6.0001
-  DSAs - book
-Reading python cookbook ch1
-  Workout
-  </description>
-    </item>
-    
+    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/logs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IELTS result</title>
       <link>https://blog.jaechoi.dev/logs/ielts-result/</link>

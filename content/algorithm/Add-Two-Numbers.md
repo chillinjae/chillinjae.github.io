@@ -3,7 +3,9 @@ title: Add Two Numbers
 date: 2021-03-05
 ---
 
-## Recursion and linked list
+### Recursion and linked list
+<br>
+
 ```python
 # class ListNode:
 #     def __init__(self, val=0, next=None):
