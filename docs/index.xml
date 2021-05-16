@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>./missing-semester from MIT</title>
-      <link>https://blog.jaechoi.dev/cs/missingsemester-from-mit/</link>
+      <link>https://blog.jaechoi.dev/courses/missingsemester-from-mit/</link>
       <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.jaechoi.dev/cs/missingsemester-from-mit/</guid>
+      <guid>https://blog.jaechoi.dev/courses/missingsemester-from-mit/</guid>
       <description>Material 2020 Lectures · the missing semester of your cs education
 2020 Lectures   Course overview + the shell
 Basic shell script commands (CRUD)
@@ -27,18 +27,6 @@ Basic shell script commands (CRUD)
   Potpourri
   Q&amp;amp;A
   Video recordings of the lectures are available on YouTube</description>
-    </item>
-    
-    <item>
-      <title>CSE167 on edX</title>
-      <link>https://blog.jaechoi.dev/cs/cse167-on-edx/</link>
-      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jaechoi.dev/cs/cse167-on-edx/</guid>
-      <description>Materials Having issue to run the assignments program on macOs. 🤦🏻‍♂️ So it’s pending …
-Course overview This course is for basic understanding of graphics using OpenGL. It is not a hands-on, practical OpenGL Programming course, but it offers graphics ‘concepts’ overall.
-What I learned What I’m going to do next  indepth graphics practical opengl or webgl
-  </description>
     </item>
     
     <item>
@@ -74,10 +62,10 @@ Overall 7.0 (6.875)</description>
     
     <item>
       <title>MIT 6.000x on edX</title>
-      <link>https://blog.jaechoi.dev/cs/mit-6000x-on-edx/</link>
+      <link>https://blog.jaechoi.dev/courses/mit-6000x-on-edx/</link>
       <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.jaechoi.dev/cs/mit-6000x-on-edx/</guid>
+      <guid>https://blog.jaechoi.dev/courses/mit-6000x-on-edx/</guid>
       <description>[COMPLETED]
 Materials Computational Thinking using Python XSeries Program | edX
 6.0001 6.0002
@@ -112,23 +100,6 @@ Lecture is available on both Youtube and edX. I like Youtube version more though
       
       <guid>https://blog.jaechoi.dev/logs/blog-pipeline-setup-is-done/</guid>
       <description>Finally!!!! 😆</description>
-    </item>
-    
-    <item>
-      <title>Math for CS Overview</title>
-      <link>https://blog.jaechoi.dev/math/math-for-cs-overview/</link>
-      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jaechoi.dev/math/math-for-cs-overview/</guid>
-      <description>Single Variable Calculus - MIT OCW 18.01
-  Multivariable Calculus
-  Differential Equations
-  Linear Algebra - TRU + MIT combo
-  Math for Computer Science (A.K.A Discrete Math) 1 - TRU + MIT combo
-  Math for Computer Science (A.K.A Discrete Math) 2
-  Numerical Analysis
-  Probability and Statistics 1 - TRU + MIT combo
-  Probability and Statistics 2</description>
     </item>
     
   </channel>

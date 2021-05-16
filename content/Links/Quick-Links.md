@@ -32,6 +32,10 @@ date: 2021-01-31
 <br>
 
 5. Tutorials
-	* 
+	* [Ray Tracing In One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
+<br>
+
+6. Good to Read
+	* [Inclusive Language for coding](https://www.aswf.io/blog/inclusive-language/)
 <br>
 

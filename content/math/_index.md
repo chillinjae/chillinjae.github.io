@@ -1,1 +1,0 @@
-Learn and Review Math for Computer Science
