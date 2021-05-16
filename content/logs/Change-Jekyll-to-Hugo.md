@@ -1,9 +1,7 @@
 ---
 title: Change Jekyll to Hugo
-date: 2021-01-31
+date: 2021-01-25
 ---
-
-<br>
 
 Jekyll had some issues with MD to HTML parser, so we found other static site generators. We considered Hugo and Gatsby, and decided to go with Hugo. There are several reasons why.
 <br>

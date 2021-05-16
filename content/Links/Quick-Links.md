@@ -31,5 +31,7 @@ date: 2021-01-31
 	* [Courses in Graphics](http://graphics.stanford.edu/courses/)
 <br>
 
+5. Tutorials
+	* 
 <br>
 

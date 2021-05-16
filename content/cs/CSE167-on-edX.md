@@ -4,7 +4,7 @@ date: 2021-02-19
 ---
 
 ## Materials
-Having issue to run the assignments program on macOs. 🤦🏻‍♂️
+Having issue to run the assignments program on macOs. 🤦🏻‍♂️ So it’s pending …
 <br>
 
 ### Course overview

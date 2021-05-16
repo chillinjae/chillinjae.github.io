@@ -3,37 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.jaechoi.dev/algorithm/</loc>
-    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.jaechoi.dev/algorithm/add-two-numbers/</loc>
-    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.jaechoi.dev/</loc>
-    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.jaechoi.dev/algorithm/twosum/</loc>
-    <lastmod>2021-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.jaechoi.dev/algorithm/how-to-start-leetcode/</loc>
-    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.jaechoi.dev/algorithm/topics/</loc>
-    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.jaechoi.dev/cs/</loc>
     <lastmod>2021-02-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -41,6 +10,11 @@
   
   <url>
     <loc>https://blog.jaechoi.dev/cs/missingsemester-from-mit/</loc>
+    <lastmod>2021-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jaechoi.dev/</loc>
     <lastmod>2021-02-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -61,30 +35,9 @@
   </url>
   
   <url>
-    <loc>https://blog.jaechoi.dev/project/</loc>
-    <lastmod>2021-02-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.jaechoi.dev/project/js-practice/</loc>
-    <lastmod>2021-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.jaechoi.dev/project/kakao-clone/</loc>
-    <lastmod>2021-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.jaechoi.dev/links/</loc>
     <lastmod>2021-01-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.jaechoi.dev/logs/change-jekyll-to-hugo/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -98,6 +51,11 @@
   </url>
   
   <url>
+    <loc>https://blog.jaechoi.dev/logs/change-jekyll-to-hugo/</loc>
+    <lastmod>2021-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.jaechoi.dev/me/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -105,11 +63,6 @@
   
   <url>
     <loc>https://blog.jaechoi.dev/me/about-me/</loc>
-    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.jaechoi.dev/project/bear-notes-export-to-jekyll-posts/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url>
   

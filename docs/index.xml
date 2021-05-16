@@ -6,48 +6,7 @@
     <description>Recent content on Deep Underground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Add Two Numbers</title>
-      <link>https://blog.jaechoi.dev/algorithm/add-two-numbers/</link>
-      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jaechoi.dev/algorithm/add-two-numbers/</guid>
-      <description>Recursion and linked list # class ListNode: # def __init__(self, val=0, next=None): # self.val = val # self.next = next class Solution: def addTwoNumbers(self, l1: ListNode, l2: ListNode, r=0) -&amp;gt; ListNode: l1_val = l1.val if l1 else None l2_val = l2.val if l2 else None if (l1_val,l2_val,r) == (None,None,0): return None elif (l1_val,l2_val,r) == (None,None,1): return ListNode(val=1, next = None) elif l1_val == None: sum = l2_val + r r = int(sum/10) sum = sum if (sum&amp;lt;10) else (sum-r*10) return ListNode(val=sum, next=self.</description>
-    </item>
-    
-    <item>
-      <title>Two-Sum</title>
-      <link>https://blog.jaechoi.dev/algorithm/twosum/</link>
-      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jaechoi.dev/algorithm/twosum/</guid>
-      <description>Approach 1: Brute Force O(n^2)
-Approach 2 : Two-pass Hash Table O(n) / O(n)
-Approach 3 : One-pass Hash Table O(n) / O(n)
-def two_sum(nums: List[int], target: int) -&amp;gt; list[int]: table = {} for v, i in enumerate(nums): remain = target - v if remain not in table.keys(): table[v] = i else: return [table[remain], i] </description>
-    </item>
-    
-    <item>
-      <title>How to start Leetcode</title>
-      <link>https://blog.jaechoi.dev/algorithm/how-to-start-leetcode/</link>
-      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jaechoi.dev/algorithm/how-to-start-leetcode/</guid>
-      <description>This article was really helpful to understand where I start it from.
-Read this before you start solving problems on Leetcode (Prep Work) | by Ali Mir | Medium</description>
-    </item>
-    
-    <item>
-      <title>Topics</title>
-      <link>https://blog.jaechoi.dev/algorithm/topics/</link>
-      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jaechoi.dev/algorithm/topics/</guid>
-      <description> Brute Force Two-pass hash table One-pass hash table Linked List Recursion
-  </description>
-    </item>
-    
+    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>./missing-semester from MIT</title>
       <link>https://blog.jaechoi.dev/cs/missingsemester-from-mit/</link>
@@ -56,6 +15,7 @@ Read this before you start solving problems on Leetcode (Prep Work) | by Ali Mir
       <guid>https://blog.jaechoi.dev/cs/missingsemester-from-mit/</guid>
       <description>Material 2020 Lectures · the missing semester of your cs education
 2020 Lectures   Course overview + the shell
+Basic shell script commands (CRUD)
   Shell Tools and Scripting
   Editors (Vim)
   Data Wrangling
@@ -75,7 +35,7 @@ Read this before you start solving problems on Leetcode (Prep Work) | by Ali Mir
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.jaechoi.dev/cs/cse167-on-edx/</guid>
-      <description>Materials Having issue to run the assignments program on macOs. 🤦🏻‍♂️
+      <description>Materials Having issue to run the assignments program on macOs. 🤦🏻‍♂️ So it’s pending …
 Course overview This course is for basic understanding of graphics using OpenGL. It is not a hands-on, practical OpenGL Programming course, but it offers graphics ‘concepts’ overall.
 What I learned What I’m going to do next  indepth graphics practical opengl or webgl
   </description>
@@ -88,42 +48,11 @@ What I learned What I’m going to do next  indepth graphics practical opengl or
       
       <guid>https://blog.jaechoi.dev/logs/ielts-result/</guid>
       <description>I’ve taken 2 weeks of break before starting new role, and it was actually only for getting this result. I just worried a bit and it’s not fully satisfying but now I can apply for the bachelor level of studies :) hope I can start new studies in the local colleges.
-[image:BD5A30E1-8F1F-41D0-8325-154C147106D7-1295-000003995A01B313/Screen Shot 2021-02-14 at 1.43.08 PM.png]
 Listening 7.0 / 9.0
 Reading 8.5 / 9.0
 Writing 6.0 / 9.0
-Speaking 6.</description>
-    </item>
-    
-    <item>
-      <title>JS practice</title>
-      <link>https://blog.jaechoi.dev/project/js-practice/</link>
-      <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jaechoi.dev/project/js-practice/</guid>
-      <description>Archive of old projects  Learned Vanilla JS and write basic CRUD functions by making Todo app on browser. referred to the app called Momentum which is a chrome extension for new tab and window.
-  Learning Vanilla JS</description>
-    </item>
-    
-    <item>
-      <title>Kakao Clone</title>
-      <link>https://blog.jaechoi.dev/project/kakao-clone/</link>
-      <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jaechoi.dev/project/kakao-clone/</guid>
-      <description>Archive of old projects  Cloned UI of Kakao talk which is the most famous messenger in South Korea. Learned how to make UI elements by using HTML and CSS, especially flex layout.
-  Chats | Kakao Clone</description>
-    </item>
-    
-    <item>
-      <title>Change Jekyll to Hugo</title>
-      <link>https://blog.jaechoi.dev/logs/change-jekyll-to-hugo/</link>
-      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jaechoi.dev/logs/change-jekyll-to-hugo/</guid>
-      <description>Jekyll had some issues with MD to HTML parser, so we found other static site generators. We considered Hugo and Gatsby, and decided to go with Hugo. There are several reasons why.
- faster simple less dependency (less plugins though)
-  Template is cleaned and Young made it as Hugo-theme. Bear-exporter (it is named as Pizzly now 🤩) is also applied all differences. Gatsby looks great but seems much similar to Wordpress.</description>
+Speaking 6.0 / 9.0
+Overall 7.0 (6.875)</description>
     </item>
     
     <item>
@@ -140,7 +69,7 @@ Speaking 6.</description>
  Zurbrigg Practical Pipeline 0.9 documentation Home | Chad Vernon Ziva Dynamics | Home
     Graphics Course Archive @ Stanford
  Courses in Graphics
-    </description>
+    Tutorials</description>
     </item>
     
     <item>
@@ -149,10 +78,22 @@ Speaking 6.</description>
       <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.jaechoi.dev/cs/mit-6000x-on-edx/</guid>
-      <description>Materials Computational Thinking using Python XSeries Program | edX
+      <description>[COMPLETED]
+Materials Computational Thinking using Python XSeries Program | edX
 6.0001 6.0002
-Course overview This course is focusing on introducing programming concepts and basic algorithms. It has a similar position with CS50 of Harvard but I felt that it’s more related to my purpose which is checking if any missing parts on python programming.
+Course overview This course is focusing on introducing programming concepts and basic algorithms. It has a similar position with CS50 of Harvard but I felt that it’s more related to my purpose in order to check if any missing parts on python programming.
 Lecture is available on both Youtube and edX. I like Youtube version more though. Assignment and exam is similar but edX version is a bit easier than offline class materials.</description>
+    </item>
+    
+    <item>
+      <title>Change Jekyll to Hugo</title>
+      <link>https://blog.jaechoi.dev/logs/change-jekyll-to-hugo/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/logs/change-jekyll-to-hugo/</guid>
+      <description>Jekyll had some issues with MD to HTML parser, so we found other static site generators. We considered Hugo and Gatsby, and decided to go with Hugo. There are several reasons why.
+ faster simple less dependency (less plugins though)
+  Template is cleaned and Young made it as Hugo-theme. Bear-exporter (it is named as Pizzly now 🤩) is also applied all differences. Gatsby looks great but seems much similar to Wordpress.</description>
     </item>
     
     <item>
@@ -162,17 +103,6 @@ Lecture is available on both Youtube and edX. I like Youtube version more though
       
       <guid>https://blog.jaechoi.dev/me/about-me/</guid>
       <description>Hello, I’m Jae 😁 🔭 I’m working at the animation studio as pipeline TD, especially focusing on the lighting and compositing side. I also keep learning CS for being better engineer in this industry through the materials from all around the world. All of this journey started from a tiny step of python scripting while working as lighter. Hope that I can go deeper inside and contribute for the artists, industry and the communities.</description>
-    </item>
-    
-    <item>
-      <title>Bear notes export to Jekyll posts</title>
-      <link>https://blog.jaechoi.dev/project/bear-notes-export-to-jekyll-posts/</link>
-      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.jaechoi.dev/project/bear-notes-export-to-jekyll-posts/</guid>
-      <description>Intro What we’ve done  call bear notes from Local DB, and parse them save them as .md for Jekyll posts, and generate pages automatically
-  What we’ve learned  How the apple devices are synced Query sqlite3 database by python  What we are planning to do further  Making simple MacOS app UI using pyQT
-  </description>
     </item>
     
     <item>

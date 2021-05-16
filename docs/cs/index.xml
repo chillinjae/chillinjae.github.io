@@ -15,6 +15,7 @@
       <guid>https://blog.jaechoi.dev/cs/missingsemester-from-mit/</guid>
       <description>Material 2020 Lectures · the missing semester of your cs education
 2020 Lectures   Course overview + the shell
+Basic shell script commands (CRUD)
   Shell Tools and Scripting
   Editors (Vim)
   Data Wrangling
@@ -34,7 +35,7 @@
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.jaechoi.dev/cs/cse167-on-edx/</guid>
-      <description>Materials Having issue to run the assignments program on macOs. 🤦🏻‍♂️
+      <description>Materials Having issue to run the assignments program on macOs. 🤦🏻‍♂️ So it’s pending …
 Course overview This course is for basic understanding of graphics using OpenGL. It is not a hands-on, practical OpenGL Programming course, but it offers graphics ‘concepts’ overall.
 What I learned What I’m going to do next  indepth graphics practical opengl or webgl
   </description>
@@ -46,9 +47,10 @@ What I learned What I’m going to do next  indepth graphics practical opengl or
       <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.jaechoi.dev/cs/mit-6000x-on-edx/</guid>
-      <description>Materials Computational Thinking using Python XSeries Program | edX
+      <description>[COMPLETED]
+Materials Computational Thinking using Python XSeries Program | edX
 6.0001 6.0002
-Course overview This course is focusing on introducing programming concepts and basic algorithms. It has a similar position with CS50 of Harvard but I felt that it’s more related to my purpose which is checking if any missing parts on python programming.
+Course overview This course is focusing on introducing programming concepts and basic algorithms. It has a similar position with CS50 of Harvard but I felt that it’s more related to my purpose in order to check if any missing parts on python programming.
 Lecture is available on both Youtube and edX. I like Youtube version more though. Assignment and exam is similar but edX version is a bit easier than offline class materials.</description>
     </item>
     

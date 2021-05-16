@@ -9,9 +9,10 @@ date: 2021-02-20
 
 ### 2020 Lectures
 
-- [ ]  [Course overview + the shell](https://missing.csail.mit.edu/2020/course-shell/) 
+- [x]  [Course overview + the shell](https://missing.csail.mit.edu/2020/course-shell/) 
+Basic shell script commands (CRUD)
 
-- [ ]  [Shell Tools and Scripting](https://missing.csail.mit.edu/2020/shell-tools/) 
+- [x]  [Shell Tools and Scripting](https://missing.csail.mit.edu/2020/shell-tools/) 
 
 - [ ]  [Editors (Vim)](https://missing.csail.mit.edu/2020/editors/) 
 
