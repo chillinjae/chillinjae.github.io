@@ -33,6 +33,7 @@ date: 2021-01-31
 
 5. Tutorials
 	* [Ray Tracing In One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
+	* [Lambda Calculus in python](https://www.youtube.com/watch?v=5C6sv7-eTKg)
 <br>
 
 6. Good to Read

@@ -1,5 +1,5 @@
 ---
-title: MIT 6.000x on edX
+title: MIT 6.000x on edX [PASSED]
 date: 2021-01-27
 ---
 
@@ -32,5 +32,7 @@ Reviewed python basics
 
 ### What I’m going to do next
 * 6.006
+<br>
+
 <br>
 

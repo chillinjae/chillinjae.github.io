@@ -6,13 +6,49 @@
     <description>Recent content on Deep Underground</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.jaechoi.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zurbrigg @ Patreon</title>
+      <link>https://blog.jaechoi.dev/pipeline/zurbrigg-patreon/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/pipeline/zurbrigg-patreon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>got offer from Digital Domain</title>
+      <link>https://blog.jaechoi.dev/logs/got-offer-from-digital-domain/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/logs/got-offer-from-digital-domain/</guid>
+      <description>Recently, I got offer from Digital Domain Vancouver, lighting ATD position. I’m really excited to the new journey in VFX studio and to see cutting edge technologies!</description>
+    </item>
+    
+    <item>
+      <title>Python Cookbook</title>
+      <link>https://blog.jaechoi.dev/books/python-cookbook/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/books/python-cookbook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSE 167x</title>
+      <link>https://blog.jaechoi.dev/graphics/cse-167x/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.jaechoi.dev/graphics/cse-167x/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>./missing-semester from MIT</title>
-      <link>https://blog.jaechoi.dev/courses/missingsemester-from-mit/</link>
+      <link>https://blog.jaechoi.dev/bcs/missingsemester-from-mit/</link>
       <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.jaechoi.dev/courses/missingsemester-from-mit/</guid>
+      <guid>https://blog.jaechoi.dev/bcs/missingsemester-from-mit/</guid>
       <description>Material 2020 Lectures · the missing semester of your cs education
 2020 Lectures   Course overview + the shell
 Basic shell script commands (CRUD)
@@ -61,11 +97,11 @@ Overall 7.0 (6.875)</description>
     </item>
     
     <item>
-      <title>MIT 6.000x on edX</title>
-      <link>https://blog.jaechoi.dev/courses/mit-6000x-on-edx/</link>
+      <title>MIT 6.000x on edX [PASSED]</title>
+      <link>https://blog.jaechoi.dev/bcs/mit-6000x-on-edx-passed/</link>
       <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.jaechoi.dev/courses/mit-6000x-on-edx/</guid>
+      <guid>https://blog.jaechoi.dev/bcs/mit-6000x-on-edx-passed/</guid>
       <description>[COMPLETED]
 Materials Computational Thinking using Python XSeries Program | edX
 6.0001 6.0002
@@ -90,7 +126,8 @@ Lecture is available on both Youtube and edX. I like Youtube version more though
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.jaechoi.dev/me/about-me/</guid>
-      <description>Hello, I’m Jae 😁 🔭 I’m working at the animation studio as pipeline TD, especially focusing on the lighting and compositing side. I also keep learning CS for being better engineer in this industry through the materials from all around the world. All of this journey started from a tiny step of python scripting while working as lighter. Hope that I can go deeper inside and contribute for the artists, industry and the communities.</description>
+      <description>Hello, I’m Jae 😁 🔭 I’m working as TD in Vancouver, especially focusing on the lighting. I also keep learning CS and Math to be a better engineer in the industry through the materials from everywhere. All of this journey started from a tiny step of python scripting while working as lighter. Hope that I can go deeper inside and contribute for the artists, industry and the communities.
+💬 Ask anything about me via Linkedin!</description>
     </item>
     
     <item>

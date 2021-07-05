@@ -3,25 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.jaechoi.dev/courses/</loc>
-    <lastmod>2021-02-20T00:00:00+00:00</lastmod>
+    <loc>https://blog.jaechoi.dev/pipeline/</loc>
+    <lastmod>2021-07-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.jaechoi.dev/courses/missingsemester-from-mit/</loc>
-    <lastmod>2021-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.jaechoi.dev/</loc>
-    <lastmod>2021-02-20T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jaechoi.dev/pipeline/zurbrigg-patreon/</loc>
+    <lastmod>2021-07-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.jaechoi.dev/logs/</loc>
-    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jaechoi.dev/logs/got-offer-from-digital-domain/</loc>
+    <lastmod>2021-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jaechoi.dev/books/</loc>
+    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jaechoi.dev/books/python-cookbook/</loc>
+    <lastmod>2021-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jaechoi.dev/graphics/</loc>
+    <lastmod>2021-05-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jaechoi.dev/graphics/cse-167x/</loc>
+    <lastmod>2021-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.jaechoi.dev/bcs/</loc>
+    <lastmod>2021-02-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.jaechoi.dev/bcs/missingsemester-from-mit/</loc>
+    <lastmod>2021-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -41,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://blog.jaechoi.dev/courses/mit-6000x-on-edx/</loc>
+    <loc>https://blog.jaechoi.dev/bcs/mit-6000x-on-edx-passed/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -64,26 +102,6 @@
   <url>
     <loc>https://blog.jaechoi.dev/logs/blog-pipeline-setup-is-done/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.jaechoi.dev/dsa/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.jaechoi.dev/graphics/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.jaechoi.dev/pipeline/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.jaechoi.dev/web/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
